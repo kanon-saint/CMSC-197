@@ -1,0 +1,41 @@
+\begin{thebibliography}{1}
+
+\bibitem{statistica2023}
+Statista.
+\newblock Most popular social networks worldwide.
+\newblock
+  \url{https://www.statista.com/statistics/272014/global-social-networks-ranked-by-number-of-users/},
+  2024.
+\newblock Accessed: 2024-12-08.
+
+\bibitem{internetlivestats2023}
+Internet~Live Stats.
+\newblock Twitter usage statistics - internet live stats.
+\newblock \url{https://www.internetlivestats.com/twitter-statistics/}, 2024.
+\newblock Accessed: 2024-12-08.
+
+\bibitem{twitterstats2023}
+Omnicore.
+\newblock Twitter by the numbers: Stats, demographics and fun facts.
+\newblock \url{https://www.omnicoreagency.com/twitter-statistics/}, 2023.
+\newblock Accessed: 2024-12-08.
+
+\bibitem{Kim2019}
+Evgeny Kim and Roman Klinger.
+\newblock A survey on sentiment and emotion analysis for computational literary
+  studies.
+\newblock {\em Zeitschrift für digitale Geisteswissenschaften}, 2019.
+
+\bibitem{Hakak2017}
+Nida~Manzoor Hakak, Mohsin Mohd, Mahira Kirmani, and Mudasir Mohd.
+\newblock Emotion analysis: A survey.
+\newblock In {\em 2017 International Conference on Computer, Communications and
+  Electronics (Comptelix)}, pages 397--402, 2017.
+
+\bibitem{Alslaity2022}
+Alaa Alslaity and Rita Orji.
+\newblock Machine learning techniques for emotion detection and sentiment
+  analysis: current state, challenges, and future directions.
+\newblock {\em Behaviour \& Information Technology}, 43(1):139--164, 2024.
+
+\end{thebibliography}
