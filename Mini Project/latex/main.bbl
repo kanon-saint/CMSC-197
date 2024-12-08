@@ -47,12 +47,6 @@ Margarita Rodríguez-Ibánez, Antonio Casánez-Ventura, Félix
 \newblock A review on sentiment analysis from social media platforms.
 \newblock {\em Expert Systems with Applications}, 223:119862, 2023.
 
-\bibitem{Mahmood2020}
-Alaa Mahmood, Siti Kamaruddin, Raed Naser, and Maslinda Mohd~Nadzir.
-\newblock A combination of lexicon and machine learning approaches for
-  sentiment analysis on facebook.
-\newblock {\em Journal of System and Management Sciences}, 10, 11 2020.
-
 \bibitem{Chatterjee2023}
 A.~Chatterjee, B.~Das, and A.~Das.
 \newblock Chapter 10 - towards the analyzing of social-media data to assess the
@@ -61,6 +55,12 @@ A.~Chatterjee, B.~Das, and A.~Das.
   editors, {\em Computational Intelligence Applications for Text and Sentiment
   Data Analysis}, Hybrid Computational Intelligence for Pattern Analysis and
   Understanding, pages 225--238. Academic Press, 2023.
+
+\bibitem{oneai_sentiment_emotion}
+Olga Miroshnyk.
+\newblock Sentiment analysis vs. emotion detection.
+\newblock
+  \url{https://oneai.com/learn/sentiment-analysis-vs-emotion-detection}, 2022.
 
 \bibitem{Tanwar2024}
 Vishesh Tanwar.
@@ -98,6 +98,12 @@ Sameena Pathan, K.~Gopalakrishna Prabhu, and P.C. Siddalingaswamy.
 E~Poovammal, Satyam Verma, Siddhant Sharma, and Virendra Agarwal.
 \newblock Emotional analysis using multinomial logistic regression.
 \newblock {\em Indian Journal of Science and Technology}, 9(39), 2016.
+
+\bibitem{Mahmood2020}
+Alaa Mahmood, Siti Kamaruddin, Raed Naser, and Maslinda Mohd~Nadzir.
+\newblock A combination of lexicon and machine learning approaches for
+  sentiment analysis on facebook.
+\newblock {\em Journal of System and Management Sciences}, 10, 11 2020.
 
 \bibitem{Gillet2007}
 V.J. Gillet and A.R. Leach.
