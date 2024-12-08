@@ -1,0 +1,130 @@
+
+
+\section{Literature Review}
+
+Sentiment analysis, also known as opinion mining, is a subfield of natural language processing (NLP) concerned with identifying the sentiment or emotional tone in a piece of text, typically classified as positive, negative, or neutral \cite{Saad2017}. It has found widespread applications in domains such as marketing, customer service, and public opinion monitoring, making it a critical tool for deriving insights from text data \cite{Rodriguez2023}.
+
+Traditional lexicon-based approaches have been largely replaced and outperformed by machine learning models, which can automatically learn sentiment patterns from labeled data \cite{Mahmood2020}. In an experimental result, SVM and Naive Bayes come out with higher precision, while the lexicon-based approach requires less human efforts in labeling. This section reviews key models and techniques used in sentiment analysis, focusing on classification models, feature extraction methods, and data sampling strategies.
+
+Emotion analysis refers to the process of determining the emotional status of individuals, such as anxiety, stress, depression, and fear, using data analytics techniques like TF-IDF and Bag of Words. It is applied to understand the psychological effects of events like Covid-19 lockdowns on human psychology \cite{Chatterjee2023}.
+
+\subsection{Machine Learning Models for Sentiment Analysis}
+
+Several machine learning models have been used in sentiment analysis. Each model offers different strengths in terms of interpretability, scalability, and performance.
+
+\subsubsection{Naive Bayes}
+
+Naive Bayes is one of the simplest yet widely used models for sentiment analysis due to its ease of implementation and low computational cost. This classifier provides more efficient and quick results compared to other machine learning models and techniques such as SVM and Maximum Entropy \cite{Mathapati2017}. It operates on the assumption that the features (words) are conditionally independent given the class label. Despite this simplification, Naive Bayes performs well in text classification tasks like sentiment analysis, especially when the number of features is large \cite{Saini2021}.
+
+\subsubsection{Logistic Regression}
+
+Logistic Regression is often used in various applications, such as predicting the risk of developing a disease or classifying data into different categories. It estimates the probability that a given input belongs to a particular class (positive or negative sentiment) by using the sigmoid function. One of the advantages of logistic regression is its interpretability, as it provides direct insight into the importance of individual features in the classification decision \cite{Pathan2018}.
+
+Studies says that logistic regression can be employed in the emotion analysis of speech signals to identify various emotional states during verbal communication. The study utilized machine learning algorithms to select the best features influencing emotional states, aiding in the understanding of human emotions through speech signals\cite{Poovammal2016}.
+
+\subsubsection{Support Vector Machines (SVM)}
+
+Support Vector Machines (SVM) are a well-established technique in sentiment analysis \cite{Mahmood2020}. SVMs work by finding the hyperplane that best separates the data into different classes \cite{Gillet2007}. In sentiment analysis, SVMs have proven to be effective in handling high-dimensional data typical of text classification tasks.
+
+\cite{Wang2012} highlighted the use of SVMs in classifying sentiment from short texts like tweets, where it performed better than some probabilistic models such as Naive Bayes.
+
+\subsubsection{Random Forest}
+
+Random Forest is an ensemble learning method that constructs multiple decision trees and outputs the class that is the majority vote of the individual trees. Random Forests are well-suited for text classification tasks as they reduce overfitting and handle a large number of features effectively.
+
+In \cite{Go2009}, Random Forest was applied to Twitter data, where its ensemble nature helped achieve better classification accuracy by considering multiple decision paths.
+
+\subsubsection{Artificial Neural Networks (ANN)}
+
+Artificial Neural Networks (ANN) are computational models inspired by the human brain. In the context of sentiment analysis, ANNs have gained attention for their ability to capture complex patterns and relationships in data. ANNs work by passing input features through multiple layers of neurons and adjusting the weights of connections based on training data.
+
+Although ANNs are typically more complex and computationally expensive compared to simpler models like logistic regression, their flexibility allows them to handle non-linear patterns in text data, as shown by \cite{Collobert2011}.
+
+\subsubsection{XGBoost}
+
+XGBoost is an advanced gradient boosting algorithm that has gained significant popularity for its efficiency and performance in a variety of machine learning tasks, including sentiment analysis. XGBoost optimizes the decision tree-based boosting technique and incorporates regularization to prevent overfitting, making it highly effective for classification tasks on large datasets.
+
+\cite{Chen2016} introduced XGBoost, and its application to sentiment analysis has led to state-of-the-art performance on several datasets due to its ability to handle both linear and non-linear decision boundaries.
+
+\subsection{Feature Extraction Techniques}
+
+Feature extraction is crucial for sentiment analysis as it transforms raw text into numerical representations that machine learning models can process. Some of the most commonly used methods are described below:
+
+\subsubsection{TF-IDF Vectorizer}
+
+Term Frequency-Inverse Document Frequency (TF-IDF) is a widely used feature extraction technique that converts text data into numerical vectors. It assigns a weight to each word based on its frequency in a document (Term Frequency) and its inverse frequency across all documents (Inverse Document Frequency). The TF-IDF vectorizer is useful in sentiment analysis as it helps reduce the influence of common words while emphasizing rare but significant words in the text.
+
+\cite{Ramos2003} described TF-IDF as a powerful method for converting text into features that can be used for classification tasks like sentiment analysis.
+
+\subsubsection{n-Grams}
+
+n-Grams refer to contiguous sequences of words or characters in a text. In sentiment analysis, n-grams help capture context and local dependencies between words that individual words (unigrams) might miss. For example, using bigrams or trigrams (sequences of two or three words) can help capture phrases like "not good" that express sentiment beyond individual word-level analysis.
+
+\cite{Cavnar1994} introduced n-grams for text classification, demonstrating their effectiveness in sentiment classification tasks.
+
+\subsection{Data Sampling Techniques}
+
+Data imbalance is a common problem in sentiment analysis, where one sentiment class (e.g., positive) might be overrepresented compared to others (e.g., negative). Various sampling techniques can be used to address this issue.
+
+\subsubsection{Upsampling and Downsampling}
+
+Upsampling involves increasing the number of samples in the minority class by replicating existing samples or generating synthetic samples.
+Downsampling involves reducing the number of samples in the majority class to balance the dataset.
+These methods help ensure that machine learning models do not become biased toward the majority class, as discussed by \cite{Chawla2002}.
+
+\subsubsection{Stratified Sampling}
+
+Stratified sampling ensures that the training and test sets maintain the same proportion of classes as the original dataset. This technique is important in sentiment analysis, where certain sentiments might be underrepresented. By preserving class distributions, stratified sampling helps models generalize better to unseen data.
+
+\cite{Seiffert2010} showed that stratified sampling improves model performance, especially when working with imbalanced datasets.
+
+\subsection{Model Optimization: Hyperparameter Tuning}
+
+Hyperparameter tuning involves optimizing the parameters of machine learning models that are not learned from the data but set prior to training (e.g., the number of trees in Random Forest, the regularization parameter in logistic regression). Tuning these parameters can significantly impact the performance of models in sentiment analysis tasks.
+
+Common methods for hyperparameter tuning include:
+
+Grid Search: An exhaustive search over specified hyperparameter values.
+Random Search: A randomized search over hyperparameter space, which is more computationally efficient than grid search.
+Bayesian Optimization: A probabilistic model-based optimization technique that searches for the best hyperparameters by updating its knowledge about the parameter space over time.
+\cite{Bergstra2011} showed that random search and Bayesian optimization often outperform traditional grid search in terms of finding the optimal hyperparameters efficiently.
+
+\subsection{Datasets for Sentiment Analysis}
+
+Several datasets have been pivotal in advancing sentiment analysis research. These datasets provide labeled examples of text with corresponding sentiment labels (positive, negative, neutral), and are used for training, validating, and testing models.
+
+\subsubsection{Stanford Sentiment Treebank (SST)}
+
+The Stanford Sentiment Treebank is one of the most widely used datasets in sentiment analysis research. It contains over 10,000 movie reviews labeled with sentiment polarity. Unlike other datasets, SST provides a fine-grained sentiment score for each phrase in the sentence, making it particularly useful for models that need to capture the subtleties of sentiment at different granular levels.
+
+\subsubsection{IMDB Movie Reviews}
+
+The IMDB movie review dataset is a large collection of movie reviews with binary sentiment labels (positive or negative). This dataset has been widely used to evaluate sentiment analysis models, particularly in supervised learning scenarios.
+
+\subsubsection{Twitter Sentiment Datasets}
+
+Due to the rise of social media, Twitter sentiment datasets have become increasingly important for analyzing public opinion. (CITE HERE)introduced a Twitter dataset where tweets were automatically labeled using emoticons as proxies for sentiment. This dataset has been used extensively for training models that can handle short, informal text with a high degree of noise.
+
+\subsection{Challenges in Sentiment Analysis}
+
+Despite the advances in machine learning and deep learning models, sentiment analysis continues to face several challenges:
+
+\subsubsection{Sarcasm and Irony Detection}
+
+Sarcasm and irony are common in online communication, and they present a significant challenge for sentiment analysis models. Lexicon-based methods, in particular, struggle with detecting sarcasm, as words with positive sentiment may be used sarcastically to express negative emotions. Recent work by (CITE HERE) explored the use of deep learning models to improve sarcasm detection, but this remains an active area of research.
+
+\subsubsection{Domain Adaptation}
+
+Sentiment expressions vary across domains, such as product reviews, social media, and news articles. Models trained on one domain may not perform well when applied to another. (CITE HERE) proposed domain adaptation techniques to address this issue, but the challenge of transferring knowledge between domains remains.
+
+\subsubsection{Multilingual Sentiment Analysis}
+
+Most sentiment analysis research focuses on English text, but there is growing interest in analyzing sentiments expressed in other languages. (CITE HERE) explored sentiment analysis in multilingual settings, highlighting the challenges of linguistic differences and the lack of annotated datasets in many languages.
+
+\subsection{Applications of Sentiment Analysis}
+
+Sentiment analysis has found applications across various domains, including:
+
+Business Intelligence: Companies use sentiment analysis to monitor customer feedback and improve their products and services.
+Politics: Sentiment analysis has been used to analyze public opinion on political candidates and policies by studying social media trends.
+Healthcare: Researchers have applied sentiment analysis to analyze patient feedback and identify areas for improvement in healthcare services.

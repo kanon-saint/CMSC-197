@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{statistica2023}
 Statista.
@@ -37,5 +37,62 @@ Alaa Alslaity and Rita Orji.
 \newblock Machine learning techniques for emotion detection and sentiment
   analysis: current state, challenges, and future directions.
 \newblock {\em Behaviour \& Information Technology}, 43(1):139--164, 2024.
+
+\bibitem{Saad2017}
+Saidah Saad and Bilal Saberi.
+\newblock Sentiment analysis or opinion mining: A review.
+\newblock {\em International Journal on Advanced Science, Engineering and
+  Information Technology}, 7:1660, 10 2017.
+
+\bibitem{Rodriguez2023}
+Margarita Rodríguez-Ibánez, Antonio Casánez-Ventura, Félix
+  Castejón-Mateos, and Pedro-Manuel Cuenca-Jiménez.
+\newblock A review on sentiment analysis from social media platforms.
+\newblock {\em Expert Systems with Applications}, 223:119862, 2023.
+
+\bibitem{Mahmood2020}
+Alaa Mahmood, Siti Kamaruddin, Raed Naser, and Maslinda Mohd~Nadzir.
+\newblock A combination of lexicon and machine learning approaches for
+  sentiment analysis on facebook.
+\newblock {\em Journal of System and Management Sciences}, 10, 11 2020.
+
+\bibitem{Chatterjee2023}
+A.~Chatterjee, B.~Das, and A.~Das.
+\newblock Chapter 10 - towards the analyzing of social-media data to assess the
+  impact of long lockdowns on human psychology due to the covid-19 pandemic.
+\newblock In Dipankar Das, Anup~Kumar Kolya, Abhishek Basu, and Soham Sarkar,
+  editors, {\em Computational Intelligence Applications for Text and Sentiment
+  Data Analysis}, Hybrid Computational Intelligence for Pattern Analysis and
+  Understanding, pages 225--238. Academic Press, 2023.
+
+\bibitem{Mathapati2017}
+Pramod Mathapati, Arati Shahapurkar, and Kavita Hanabaratti.
+\newblock Sentiment analysis using naïve bayes algorithm.
+\newblock {\em International Journal of Computer Sciences and Engineering},
+  5:75--77, 07 2017.
+
+\bibitem{Saini2021}
+Deepak Saini, Trilok Chand, Devendra~K. Chouhan, and Mahesh Prakash.
+\newblock A comparative analysis of automatic classification and grading
+  methods for knee osteoarthritis focussing on x-ray images.
+\newblock {\em Biocybernetics and Biomedical Engineering}, 41(2):419--444,
+  2021.
+
+\bibitem{Pathan2018}
+Sameena Pathan, K.~Gopalakrishna Prabhu, and P.C. Siddalingaswamy.
+\newblock Techniques and algorithms for computer aided diagnosis of pigmented
+  skin lesions—a review.
+\newblock {\em Biomedical Signal Processing and Control}, 39:237--262, 2018.
+
+\bibitem{Poovammal2016}
+E~Poovammal, Satyam Verma, Siddhant Sharma, and Virendra Agarwal.
+\newblock Emotional analysis using multinomial logistic regression.
+\newblock {\em Indian Journal of Science and Technology}, 9(39), 2016.
+
+\bibitem{Gillet2007}
+V.J. Gillet and A.R. Leach.
+\newblock Chemoinformatics.
+\newblock In John~B. Taylor and David~J. Triggle, editors, {\em Comprehensive
+  Medicinal Chemistry II}, pages 235--264. Elsevier, Oxford, 2007.
 
 \end{thebibliography}
