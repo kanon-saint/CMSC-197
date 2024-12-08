@@ -1,4 +1,102 @@
 \section{Results and Discussion}
+This chapter present the performance evaluation of various machine learning models for emotion classification and discuss their strengths and limitations. Six models—Naive Bayes, Logistic Regression, Random Forest, Support Vector Machine (SVM), Artificial Neural Network (ANN), and XGBoost(Extreme Gradient Boosting)—were trained and tested on the dataset to identify the emotions expressed in textual data. Their performance was evaluated using standard metrics such as accuracy, precision, recall, and F1-score.\\
+
+Overall, the results highlight the varying capabilities of the models in distinguishing between six emotions: anger, fear, joy, love, sadness, and surprise. While all models performed reasonably well in identifying the more frequent emotions like joy and sadness, challenges emerged in classifying nuanced or underrepresented emotions like love and surprise. Each model's strengths and weaknesses are discussed in detail, emphasizing the trade-offs between simplicity, computational efficiency, and classification accuracy.\\
+
+\subsection{Initial Results}
+This section presents the initial results of the models before implementing optimizations such as stratified sampling, upsampling, downsampling, hyperparameter tuning, and adjustments to the Random Forest parameters. Notably, the previous results did not include the application of XGBoost and Artificial Neural Networks (ANN) to the dataset, which are addressed in this analysis.\\
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.8\textwidth]{init_result_naive_bayes.png}
+	\caption{Naive Bayes Classification Report}
+	\label{fig:initial_naive_bayes}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.8\textwidth]{init_result_logistic_regression.png}
+	\caption{Logistic Regression Classification Report}
+	\label{fig:initial_logistic_regression}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.8\textwidth]{init_result_random_forest.png}
+	\caption{Random Forest Classification Report}
+	\label{fig:initial_random_forest}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.8\textwidth]{init_result_svm.png}
+	\caption{SVM Classification Report}
+	\label{fig:initial_svm}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.8\textwidth]{accuracy_model_init_result.png}
+	\caption{Initial Accuracy Model}
+	\label{fig:initial_accuracy_model}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	% First row
+	\begin{subfigure}[b]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{confusion_naive_bayes_init.png}
+		\caption{Confusion Matrix for Naive Bayes}
+		\label{fig:init_confusion_matrix_naive_bayes}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{confusion_logistic_regression_init.png}
+		\caption{Confusion Matrix for Logistic Regression}
+		\label{fig:init_confusion_matrix_logistic_regression}
+	\end{subfigure}
+	
+	% Second row
+	\vskip\baselineskip
+	\begin{subfigure}[b]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{confusion_random_forest_init.png}
+		\caption{Confusion Matrix for Random Forest}
+		\label{fig:init_confusion_matrix_random_forest}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{confusion_svm_init.png}
+		\caption{Confusion Matrix for SVM}
+		\label{init_confusion_matrix_svm}
+	\end{subfigure}
+	
+	\caption{Initial Results Confusion Matrix}
+	\label{fig:initial_confusion_matrix}
+\end{figure}
+
+\clearpage
+
+\subsection{Naive Bayes}
+The Naive Bayes model achieved an accuracy of 0.63 (62.93\%) \ref{fig:initial_naive_bayes}. It demonstrated strong performance in recognizing "joy" and "sadness," with high recall values for these classes. Notably, the recall for "joy" was 0.99, indicating that nearly all joyful instances were correctly identified. However, the model struggled significantly with other emotions such as "anger," "fear," "love," and particularly "surprise," where the recall was extremely low at 0.00. This suggests that Naive Bayes had difficulty distinguishing between more nuanced emotions. The F1-scores were moderate for "joy" (0.70) and "sadness" (0.81), but very low for other categories, indicating poor balance between precision and recall. The confusion matrix showed that Naive Bayes experienced the most misclassifications, particularly between "joy" and other emotions like "anger" and "fear \ref{fig:init_confusion_matrix_naive_bayes}."
+
+\subsection{Logistic Regression}
+Logistic Regression significantly improved accuracy to 0.83 , demonstrating strong performance across most emotions(82.68\%) \ref{fig:initial_logistic_regression}. The model was especially effective in identifying "joy" (F1-score: 0.86) and "sadness" (F1-score: 0.90), with high recall values of 0.97 and 0.95, respectively, indicating reliable identification of these emotions. It also performed well for "anger" and "fear," with good precision and recall metrics. However, the emotions "love" and "surprise" showed slightly lower recall values of 0.47 and 0.33, respectively, suggesting that these emotions were harder to predict accurately. While Logistic Regression reduced misclassifications overall, "love" and "surprise" remained challenging for the model.
+
+\subsection{Random Forest}
+The Random Forest model achieved the highest accuracy at 0.88 (88.25\%), outperforming both Logistic Regression and Naive Bayes \ref{fig:initial_random_forest}. It performed very well on "joy," "sadness," "fear," and "anger," with F1-scores around or exceeding 0.80. While the recall for "love" and "surprise" was still lower at 0.79 and 0.73, respectively, this was an improvement over the other models. Random Forest showed a balanced performance between precision and recall across most emotion categories, making it the best performer overall in this context. This model's ability to maintain high scores for harder-to-classify emotions like "love" and "surprise" highlighted its robustness.
+
+\subsection{Support Vector Machine (SVM)}
+The SVM model achieved an accuracy of 0.85 (85.28\%), performing comparably to Logistic Regression. It exhibited strong precision and recall for "anger," "fear," "joy," and "sadness. \ref{fig:initial_svm}" However, similar to Logistic Regression, "love" and "surprise" had lower recall values of 0.29 and 0.22, respectively, suggesting these emotions posed a challenge for the model. Despite these challenges, SVM achieved strong F1-scores for major emotion categories such as "joy" (0.82) and "sadness" (0.88). While its overall performance was commendable, SVM also faced difficulties with "love" and "surprise," similar to other models.
+
+\subsection{Overall Insights for Initial Results}
+The Random Forest model emerged as the best-performing model, achieving the highest accuracy (88.25\%) and demonstrating a well-balanced performance across most emotions. However, all models faced challenges with "love" and "surprise," which showed lower recall and F1-scores. These difficulties could be attributed to the lower frequency of these emotions in the dataset or their nuanced nature. The Naive Bayes model, while effective for simpler tasks, struggled significantly with complex emotions and exhibited poor performance on less common categories like "surprise" and "love." This analysis underscores the importance of using more robust models like Random Forest for achieving better balance and accuracy in emotion classification tasks.
+
+       
+\subsection{Final Results}
 The following are the precision, recall, F1-score, and support metrics for each classification model, evaluating its performance across six emotion categories: Sadness, Joy, Love, Anger, Fear, and Surprise.
 
 \begin{figure}[h!]
@@ -44,6 +142,7 @@ The following are the precision, recall, F1-score, and support metrics for each 
 \end{figure}
 
 \clearpage
+
 \subsection{Naive Bayes Result}
 The Naive Bayes model achieved an accuracy of \textbf{0.785}. It performed reasonably well across several emotions, with \textbf{Sadness} showing the highest recall (0.77) and \textbf{Surprise} the lowest precision (0.34) as shown in Figure \ref{fig:naive_bayes}. The weighted average F1-score of 0.80 indicates balanced performance across emotions, though some areas like \textbf{Surprise} and \textbf{Love} could be improved. In terms of precision, the model had the best result for \textbf{Sadness} (0.92).
 
