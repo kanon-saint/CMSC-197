@@ -6,19 +6,16 @@ Statista.
 \newblock
   \url{https://www.statista.com/statistics/272014/global-social-networks-ranked-by-number-of-users/},
   2024.
-\newblock Accessed: 2024-12-08.
 
 \bibitem{internetlivestats2023}
 Internet~Live Stats.
 \newblock Twitter usage statistics - internet live stats.
 \newblock \url{https://www.internetlivestats.com/twitter-statistics/}, 2024.
-\newblock Accessed: 2024-12-08.
 
 \bibitem{twitterstats2023}
 Omnicore.
 \newblock Twitter by the numbers: Stats, demographics and fun facts.
 \newblock \url{https://www.omnicoreagency.com/twitter-statistics/}, 2023.
-\newblock Accessed: 2024-12-08.
 
 \bibitem{Kim2019}
 Evgeny Kim and Roman Klinger.
@@ -94,5 +91,103 @@ V.J. Gillet and A.R. Leach.
 \newblock Chemoinformatics.
 \newblock In John~B. Taylor and David~J. Triggle, editors, {\em Comprehensive
   Medicinal Chemistry II}, pages 235--264. Elsevier, Oxford, 2007.
+
+\bibitem{Senturk2023}
+Umit Senturk, Kemal Polat, Ibrahim Yucedag, and Fayadh Alenezi.
+\newblock Chapter 4 - arrhythmia diagnosis from ecg signal pulses with
+  one-dimensional convolutional neural networks.
+\newblock In Kemal Polat and Saban Öztürk, editors, {\em Diagnostic
+  Biomedical Signal and Image Processing Applications with Deep Learning
+  Methods}, Intelligent Data-Centric Systems, pages 83--101. Academic Press,
+  2023.
+
+\bibitem{Walczak2003}
+Steven Walczak and Narciso Cerpa.
+\newblock Artificial neural networks.
+\newblock In Robert~A. Meyers, editor, {\em Encyclopedia of Physical Science
+  and Technology (Third Edition)}, pages 631--645. Academic Press, New York,
+  third edition edition, 2003.
+
+\bibitem{Collobert2011}
+Ronan Collobert, Jason Weston, Leon Bottou, Michael Karlen, Koray Kavukcuoglu,
+  and Pavel Kuksa.
+\newblock Natural language processing (almost) from scratch.
+\newblock {\em Journal of Machine Learning Research}, 12:2493--2537, 02 2011.
+
+\bibitem{Bentejac2019}
+Candice Bentéjac, Anna Csörgő, and Gonzalo Martínez-Muñoz.
+\newblock A comparative analysis of xgboost, 11 2019.
+
+\bibitem{Semary2024}
+Noura Semary, Wesam Ahmed, Khalid Amin, Paweł Pławiak, and Mohamed Hammad.
+\newblock Enhancing machine learning-based sentiment analysis through feature
+  extraction techniques.
+\newblock {\em PLOS ONE}, 19:e0294968, 02 2024.
+
+\bibitem{Nguyen2014}
+Eric Nguyen.
+\newblock Chapter 4 - text mining and network analysis of digital libraries in
+  r.
+\newblock In Yanchang Zhao and Yonghua Cen, editors, {\em Data Mining
+  Applications with R}, pages 95--115. Academic Press, Boston, 2014.
+
+\bibitem{Ojo2021}
+Olumide Ojo, Alexander Gelbukh, Hiram Calvo, and Olaronke Adebanji.
+\newblock Performance study of n-grams in the analysis of sentiments.
+\newblock {\em Journal of the Nigerian Society of Physical Sciences},
+  3:477--483, 11 2021.
+
+\bibitem{Bhardwaj2019}
+Shailja Bhardwaj and Janmejay Pant.
+\newblock Sentiment analysis approach based n-gram and knn classifier.
+\newblock 08 2019.
+
+\bibitem{Kaur2023}
+Ravpreet Kaur and Sarbjeet Singh.
+\newblock A comprehensive review of object detection with deep learning.
+\newblock {\em Digital Signal Processing}, 132:103812, 2023.
+
+\bibitem{analyticsvidhya2024}
+Saikat.
+\newblock 5 techniques to handle imbalanced data for a classification problem,
+  2021.
+\newblock Accessed: 2024-12-08.
+
+\bibitem{shi2015}
+Fei Shi.
+\newblock Study on a stratified sampling investigation method for resident
+  travel and the sampling rate.
+\newblock {\em Discrete Dynamics in Nature and Society}, 2015:1--7, 03 2015.
+
+\bibitem{chawla2024}
+Avi Chawla.
+\newblock Grid search vs. random search vs. bayesian optimization, 2024.
+
+\bibitem{chawla20241}
+Avi Chawla.
+\newblock Bayesian optimization for hyperparameter tuning, 2024.
+
+\bibitem{Meriem2021}
+Amina~Ben Meriem, Lobna Hlaoua, and Lotfi~Ben Romdhane.
+\newblock A fuzzy approach for sarcasm detection in social networks.
+\newblock {\em Procedia Computer Science}, 192:602--611, 2021.
+
+\bibitem{Pozzi2017}
+D.I.~Hernández Farias and P.~Rosso.
+\newblock Chapter 7 - irony, sarcasm, and sentiment analysis.
+\newblock In Federico~Alberto Pozzi, Elisabetta Fersini, Enza Messina, and Bing
+  Liu, editors, {\em Sentiment Analysis in Social Networks}, pages 113--128.
+  Morgan Kaufmann, Boston, 2017.
+
+\bibitem{Dashtipour2016}
+Kia Dashtipour, Soujanya Poria, Amir Hussain, Erik Cambria, Ahmad Hawalah,
+  Alexander Gelbukh, and Qiang Zhou.
+\newblock Multilingual sentiment analysis: State of the art and independent
+  comparison of techniques.
+\newblock {\em Cognitive Computation}, 8, 08 2016.
+
+\bibitem{nobledesktop2024}
+Noble Desktop.
+\newblock Sentiment analysis: Real world applications, 2024.
 
 \end{thebibliography}
