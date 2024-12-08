@@ -1,0 +1,213 @@
+\begin{thebibliography}{10}
+
+\bibitem{statistica2023}
+Statista.
+\newblock Most popular social networks worldwide.
+\newblock
+  \url{https://www.statista.com/statistics/272014/global-social-networks-ranked-by-number-of-users/},
+  2024.
+
+\bibitem{internetlivestats2023}
+Internet~Live Stats.
+\newblock Twitter usage statistics - internet live stats.
+\newblock \url{https://www.internetlivestats.com/twitter-statistics/}, 2024.
+
+\bibitem{twitterstats2023}
+Omnicore.
+\newblock Twitter by the numbers: Stats, demographics and fun facts.
+\newblock \url{https://www.omnicoreagency.com/twitter-statistics/}, 2023.
+
+\bibitem{Kim2019}
+Evgeny Kim and Roman Klinger.
+\newblock A survey on sentiment and emotion analysis for computational literary
+  studies.
+\newblock {\em Zeitschrift für digitale Geisteswissenschaften}, 2019.
+
+\bibitem{Hakak2017}
+Nida~Manzoor Hakak, Mohsin Mohd, Mahira Kirmani, and Mudasir Mohd.
+\newblock Emotion analysis: A survey.
+\newblock In {\em 2017 International Conference on Computer, Communications and
+  Electronics (Comptelix)}, pages 397--402, 2017.
+
+\bibitem{Alslaity2022}
+Alaa Alslaity and Rita Orji.
+\newblock Machine learning techniques for emotion detection and sentiment
+  analysis: current state, challenges, and future directions.
+\newblock {\em Behaviour \& Information Technology}, 43(1):139--164, 2024.
+
+\bibitem{Saad2017}
+Saidah Saad and Bilal Saberi.
+\newblock Sentiment analysis or opinion mining: A review.
+\newblock {\em International Journal on Advanced Science, Engineering and
+  Information Technology}, 7:1660, 10 2017.
+
+\bibitem{Rodriguez2023}
+Margarita Rodríguez-Ibánez, Antonio Casánez-Ventura, Félix
+  Castejón-Mateos, and Pedro-Manuel Cuenca-Jiménez.
+\newblock A review on sentiment analysis from social media platforms.
+\newblock {\em Expert Systems with Applications}, 223:119862, 2023.
+
+\bibitem{Mahmood2020}
+Alaa Mahmood, Siti Kamaruddin, Raed Naser, and Maslinda Mohd~Nadzir.
+\newblock A combination of lexicon and machine learning approaches for
+  sentiment analysis on facebook.
+\newblock {\em Journal of System and Management Sciences}, 10, 11 2020.
+
+\bibitem{Chatterjee2023}
+A.~Chatterjee, B.~Das, and A.~Das.
+\newblock Chapter 10 - towards the analyzing of social-media data to assess the
+  impact of long lockdowns on human psychology due to the covid-19 pandemic.
+\newblock In Dipankar Das, Anup~Kumar Kolya, Abhishek Basu, and Soham Sarkar,
+  editors, {\em Computational Intelligence Applications for Text and Sentiment
+  Data Analysis}, Hybrid Computational Intelligence for Pattern Analysis and
+  Understanding, pages 225--238. Academic Press, 2023.
+
+\bibitem{Tanwar2024}
+Vishesh Tanwar.
+\newblock Deep learning-based emotion detection on twitter: A study of six
+  primary emotions.
+\newblock In {\em 2024 Second International Conference on Intelligent Cyber
+  Physical Systems and Internet of Things (ICoICI)}, pages 1232--1237, 2024.
+
+\bibitem{Lora2020}
+Sanzana Lora, Nazmus Sakib, Shahana Antora, and Nusrat Jahan.
+\newblock A comparative study to detect emotions from tweets analyzing machine
+  learning and deep learning techniques.
+\newblock 12:6--12, 06 2020.
+
+\bibitem{Mathapati2017}
+Pramod Mathapati, Arati Shahapurkar, and Kavita Hanabaratti.
+\newblock Sentiment analysis using naïve bayes algorithm.
+\newblock {\em International Journal of Computer Sciences and Engineering},
+  5:75--77, 07 2017.
+
+\bibitem{Saini2021}
+Deepak Saini, Trilok Chand, Devendra~K. Chouhan, and Mahesh Prakash.
+\newblock A comparative analysis of automatic classification and grading
+  methods for knee osteoarthritis focussing on x-ray images.
+\newblock {\em Biocybernetics and Biomedical Engineering}, 41(2):419--444,
+  2021.
+
+\bibitem{Pathan2018}
+Sameena Pathan, K.~Gopalakrishna Prabhu, and P.C. Siddalingaswamy.
+\newblock Techniques and algorithms for computer aided diagnosis of pigmented
+  skin lesions—a review.
+\newblock {\em Biomedical Signal Processing and Control}, 39:237--262, 2018.
+
+\bibitem{Poovammal2016}
+E~Poovammal, Satyam Verma, Siddhant Sharma, and Virendra Agarwal.
+\newblock Emotional analysis using multinomial logistic regression.
+\newblock {\em Indian Journal of Science and Technology}, 9(39), 2016.
+
+\bibitem{Gillet2007}
+V.J. Gillet and A.R. Leach.
+\newblock Chemoinformatics.
+\newblock In John~B. Taylor and David~J. Triggle, editors, {\em Comprehensive
+  Medicinal Chemistry II}, pages 235--264. Elsevier, Oxford, 2007.
+
+\bibitem{Senturk2023}
+Umit Senturk, Kemal Polat, Ibrahim Yucedag, and Fayadh Alenezi.
+\newblock Chapter 4 - arrhythmia diagnosis from ecg signal pulses with
+  one-dimensional convolutional neural networks.
+\newblock In Kemal Polat and Saban Öztürk, editors, {\em Diagnostic
+  Biomedical Signal and Image Processing Applications with Deep Learning
+  Methods}, Intelligent Data-Centric Systems, pages 83--101. Academic Press,
+  2023.
+
+\bibitem{Walczak2003}
+Steven Walczak and Narciso Cerpa.
+\newblock Artificial neural networks.
+\newblock In Robert~A. Meyers, editor, {\em Encyclopedia of Physical Science
+  and Technology (Third Edition)}, pages 631--645. Academic Press, New York,
+  third edition edition, 2003.
+
+\bibitem{Collobert2011}
+Ronan Collobert, Jason Weston, Leon Bottou, Michael Karlen, Koray Kavukcuoglu,
+  and Pavel Kuksa.
+\newblock Natural language processing (almost) from scratch.
+\newblock {\em Journal of Machine Learning Research}, 12:2493--2537, 02 2011.
+
+\bibitem{Bentejac2019}
+Candice Bentéjac, Anna Csörgő, and Gonzalo Martínez-Muñoz.
+\newblock A comparative analysis of xgboost, 11 2019.
+
+\bibitem{Semary2024}
+Noura Semary, Wesam Ahmed, Khalid Amin, Paweł Pławiak, and Mohamed Hammad.
+\newblock Enhancing machine learning-based sentiment analysis through feature
+  extraction techniques.
+\newblock {\em PLOS ONE}, 19:e0294968, 02 2024.
+
+\bibitem{Nguyen2014}
+Eric Nguyen.
+\newblock Chapter 4 - text mining and network analysis of digital libraries in
+  r.
+\newblock In Yanchang Zhao and Yonghua Cen, editors, {\em Data Mining
+  Applications with R}, pages 95--115. Academic Press, Boston, 2014.
+
+\bibitem{Ojo2021}
+Olumide Ojo, Alexander Gelbukh, Hiram Calvo, and Olaronke Adebanji.
+\newblock Performance study of n-grams in the analysis of sentiments.
+\newblock {\em Journal of the Nigerian Society of Physical Sciences},
+  3:477--483, 11 2021.
+
+\bibitem{Bhardwaj2019}
+Shailja Bhardwaj and Janmejay Pant.
+\newblock Sentiment analysis approach based n-gram and knn classifier.
+\newblock 08 2019.
+
+\bibitem{Kaur2023}
+Ravpreet Kaur and Sarbjeet Singh.
+\newblock A comprehensive review of object detection with deep learning.
+\newblock {\em Digital Signal Processing}, 132:103812, 2023.
+
+\bibitem{analyticsvidhya2024}
+Saikat.
+\newblock 5 techniques to handle imbalanced data for a classification problem,
+  2021.
+\newblock Accessed: 2024-12-08.
+
+\bibitem{shi2015}
+Fei Shi.
+\newblock Study on a stratified sampling investigation method for resident
+  travel and the sampling rate.
+\newblock {\em Discrete Dynamics in Nature and Society}, 2015:1--7, 03 2015.
+
+\bibitem{chawla2024}
+Avi Chawla.
+\newblock Grid search vs. random search vs. bayesian optimization, 2024.
+
+\bibitem{chawla20241}
+Avi Chawla.
+\newblock Bayesian optimization for hyperparameter tuning, 2024.
+
+\bibitem{Meriem2021}
+Amina~Ben Meriem, Lobna Hlaoua, and Lotfi~Ben Romdhane.
+\newblock A fuzzy approach for sarcasm detection in social networks.
+\newblock {\em Procedia Computer Science}, 192:602--611, 2021.
+
+\bibitem{Pozzi2017}
+D.I.~Hernández Farias and P.~Rosso.
+\newblock Chapter 7 - irony, sarcasm, and sentiment analysis.
+\newblock In Federico~Alberto Pozzi, Elisabetta Fersini, Enza Messina, and Bing
+  Liu, editors, {\em Sentiment Analysis in Social Networks}, pages 113--128.
+  Morgan Kaufmann, Boston, 2017.
+
+\bibitem{Dashtipour2016}
+Kia Dashtipour, Soujanya Poria, Amir Hussain, Erik Cambria, Ahmad Hawalah,
+  Alexander Gelbukh, and Qiang Zhou.
+\newblock Multilingual sentiment analysis: State of the art and independent
+  comparison of techniques.
+\newblock {\em Cognitive Computation}, 8, 08 2016.
+
+\bibitem{nobledesktop2024}
+Noble Desktop.
+\newblock Sentiment analysis: Real world applications, 2024.
+
+\bibitem{opinosis2024stopwords}
+Opinosis Analytics.
+\newblock Stop words explained.
+\newblock
+  \url{https://www.opinosis-analytics.com/knowledge-base/stop-words-explained/#:~:text=Stop%20words%20are%20a%20set,carry%20very%20little%20useful%20information.},
+  2024.
+
+\end{thebibliography}
