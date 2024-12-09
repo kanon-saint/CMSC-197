@@ -7,14 +7,14 @@ The dataset used in this study is sourced from Kaggle and is titled "Emotions Da
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\textwidth]{emotion_pie.png}
+    \includegraphics[width=0.6\textwidth]{images/emotion_pie.png}
     \caption{Percentage distribution of emotions in the dataset.}
     \label{fig:emotion_pie}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\textwidth]{emotion_bar.png}
+    \includegraphics[width=0.6\textwidth]{images/emotion_bar.png}
     \caption{Count of each emotion in the dataset.}
     \label{fig:emotion_bar}
 \end{figure}
@@ -22,7 +22,7 @@ The dataset contains six distinct emotions: \textit{joy}, \textit{sadness}, \tex
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\textwidth]{emotion_cloud.png}
+    \includegraphics[width=0.6\textwidth]{images/emotion_cloud.png}
     \caption{Word cloud for the most frequent terms in each emotion.}
     \label{fig:emotion_cloud}
 \end{figure}
@@ -35,7 +35,7 @@ These visualizations provide crucial insights into the distribution and underlyi
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{methodology_flow.png}
+    \includegraphics[width=0.8\textwidth]{images/methodology_flow.png}
     \caption{Flowchart representing the methodology for sentiment analysis.}
     \label{fig:methodology_flow}
 \end{figure}
@@ -43,6 +43,8 @@ These visualizations provide crucial insights into the distribution and underlyi
 The methodology for this sentiment analysis project is outlined in the flowchart shown in Figure~\ref{fig:methodology_flow}.
 
 The first step in the methodology is data acquisition, where the dataset is obtained from Kaggle. The dataset used in this study is titled "Emotions Dataset for NLP," and it contains textual data labeled with six distinct emotions: joy, sadness, anger, fear, love, and surprise. This dataset serves as the foundation for the sentiment analysis task. Once the dataset is acquired, it is imported into the system using Pandas. The `train.csv` file, which contains 16,000 sentiment samples, is read into a Pandas DataFrame for further processing and analysis.
+
+Before proceeding with data preprocessing, the necessary libraries are imported to handle the data and perform the required operations. These include Pandas for data manipulation, NumPy for numerical operations, NLTK for natural language processing, and Scikit-learn for machine learning algorithms and evaluation.
 
 Data preprocessing is a crucial step to prepare the dataset for analysis. This involves cleaning the text by removing HTML tags, URLs, numbers, special characters, and unwanted patterns using regular expressions (regex). Additionally, stopwords—common words that do not contribute significant meaning, such as "the," "a," "an," etc.—are removed using the NLTK library \cite{opinosis2024stopwords}.
 
