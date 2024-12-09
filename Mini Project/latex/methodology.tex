@@ -50,7 +50,7 @@ After preprocessing, the text data is converted into numerical features using th
 
 Next, label encoding is performed. Since machine learning models cannot process categorical data directly, the emotion labels (joy, sadness, anger, etc.) are encoded into numerical values using `LabelEncoder`, allowing the model to understand and classify the emotions.
 
-The dataset is then split into training and testing sets. Typically, 80\% of the data is used for training the model, while the remaining 20\% is reserved for testing and evaluation. This ensures that the model is trained on a portion of the data and evaluated on unseen data.
+The dataset is then split into training and testing sets. Typically, 80\% of the data is used for training the model, while the remaining 20\% is reserved for testing and evaluation. However, due to an observed imbalance in the emotion classes, stratified sampling was implemented to ensure that the distribution of emotions was preserved in both the training and testing sets. This helps avoid bias that could arise from an uneven distribution of classes. Additionally, upsampling and downsampling techniques were applied to the training dataset to further address class imbalance, ensuring that each emotion class is adequately represented.
 
 Once the data is preprocessed and ready, several machine learning models are trained on the dataset, including Naive Bayes, Logistic Regression, Support Vector Machine (SVM), Random Forest, Artificial Neural Networks (ANN), and XGBoost. Each model is trained using the training set, and its performance is evaluated using the test set.
 
