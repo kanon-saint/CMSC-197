@@ -1,32 +1,11 @@
 
 
 \section{Conclusion}
-This section concludes the paper and discusses the results, any future work, or open problems that remain to be explored.
 
-main points:
-- best model based on accuracy: Logistic Regression
-Although the accuracy results in all model are closer with each other, the best model based on accuracy is the Random Forest having an accuracy 85.84%. 
+Among all the models tested, Random Forest emerges as the best-performing model based on accuracy, achieving an impressive score of 85.84\%. Although the accuracy results for all models were closely aligned, this result underscores Random Forest's robustness in general classification tasks. Different models exhibit strengths in predicting specific emotions. Random Forest demonstrates superior performance for detecting most emotions, including Anger, Fear, Sadness, and Surprise. However, Joy is best predicted by the XGBoost model. Notably, for the Surprise class, both Random Forest and XGBoost share the distinction of being the most effective models. This indicates that while a single model may excel overall, specialized models may better capture nuanced patterns in certain emotional categories. 
 
-- model that detects the best on certain emotion
-anger: random forest
-fear: random forest
-joy: xgboost
-sadness: random forest
-surprise: random forest and xgboost
+The detailed evaluation of metrics such as True Positives (TP), True Negatives (TN), False Positives (FP), and False Negatives (FN) reveals insightful patterns. Across all models, a high TN rate suggests strong reliability in identifying non-relevant results. However, the TP rate varies by emotion, with Joy and Sadness achieving particularly high TP rates. FP and FN rates remain low across most classes, affirming the models' reliability. A notable exception is the Surprise emotion in the Naive Bayes model, where the FP rate surpasses the TP rate, indicating a tendency to misclassify this category. This highlights the complexity of accurately detecting "Surprise" and suggests opportunities for model refinement. The ROC curves for the evaluated models indicate a high degree of classification performance across emotion categories, as evidenced by the Area Under the Curve (AUC) values. Random Forest outperforms other models in terms of ROC, further solidifying its position as the most effective classifier overall.
 
-For the best model on detecting certain emotion, Random Forest performs best in all emotion except "Joy." XGBoost is the best model for predicting "Joy." The best model for predicting "Surprise" is Random Forest and XGBoost. 
+Despite the promising results, this study has several limitations. The models are trained exclusively on English-language data, which limits their applicability to other languages or multilingual contexts. Additionally, the models struggle to interpret sarcasm and subjective sentiments, which often carry significant emotional undertones but lack explicit linguistic cues. To address these limitations and improve model performance, several recommendations for future work are proposed. First, incorporating a more extensive and diverse dataset could help mitigate class imbalance issues that were not fully resolved through optimization and preprocessing techniques. Second, exploring approaches for multilingual emotion detection, such as integrating translation tools or multilingual embeddings, could expand the models' applicability across different languages. Finally, investigating advanced methods for detecting sarcasm and subjectivity could enhance the models' ability to handle more nuanced emotional expressions.
 
-- metrics tp/tn/fn/fp
-The metrics evaluation shows a high degree of True Negative (TN) across all models, this suggest that the models is successful in identifying incorrect results. The True Positive (TP) of the models varies depending on the emotion, but a certain pattern occur in all model, with "Joy" and "Sadness" having a high True Positive (TN). False Positives (FP) and False Negative (FN) are low in all models, however, in the "Surprise" class Naive Bayes, False Positive (FP) tends to be higher than True Positive (TP) which implies the model misclassified "Surprise" emotion.
-
-- roc
-The ROC curves for the models show a high degree of classification performance across emotion categories which is described by the AUC values. Random Forest has the highest ROC
-
-- limitation recommendation (more data to address further imbalance)
-
-1. limitation
-cannot address other words aside from english
-cannot identify sarcastic and subjective sentiments
-
-2. recommendation
-more dataset to address imbalance problem that cannot be solved by optimization preprocessing
+In summary, while the Random Forest model demonstrates exceptional accuracy and robustness, the study highlights the potential benefits of model specialization for specific emotions. Future work should prioritize addressing language and dataset diversity to enhance the broader applicability and accuracy of emotion detection systems.
