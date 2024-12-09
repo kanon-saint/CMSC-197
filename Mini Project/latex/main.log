@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.11.8)  8 DEC 2024 23:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.11.8)  9 DEC 2024 09:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -518,43 +518,41 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  (title.tex
 LaTeX Font Info:    Trying to load font information for OMS+cmtt on input line 
-10.
-LaTeX Font Info:    No file OMScmtt.fd. on input line 10.
+11.
+LaTeX Font Info:    No file OMScmtt.fd. on input line 11.
 
 
 LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbraceleft' on input line 10.
+(Font)              for symbol `textbraceleft' on input line 11.
 
-Title too long for running head. Please supply
-a shorter form with \titlerunning prior to \maketitle
 ) (introduction.tex [1
 
 {C:/Users/Zyrex/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]) (literature
 Review.tex [2] [3] [4]) (methodology.tex [5]
-<emotion_pie.png, id=150, 589.20125pt x 577.15625pt>
+<emotion_pie.png, id=153, 589.20125pt x 577.15625pt>
 File: emotion_pie.png Graphic file (type png)
 <use emotion_pie.png>
 Package pdftex.def Info: emotion_pie.png  used on input line 10.
 (pdftex.def)             Requested size: 208.27623pt x 204.01563pt.
-<emotion_bar.png, id=151, 855.195pt x 647.41875pt>
+<emotion_bar.png, id=154, 855.195pt x 647.41875pt>
 File: emotion_bar.png Graphic file (type png)
 <use emotion_bar.png>
 Package pdftex.def Info: emotion_bar.png  used on input line 17.
 (pdftex.def)             Requested size: 208.27623pt x 157.66566pt.
- [6 <./emotion_pie.png (PNG copy)>]
-<emotion_cloud.png, id=161, 389.455pt x 601.24625pt>
+ [6 <./emotion_pie.png (PNG copy)> <./emotion_bar.png (PNG copy)>]
+<emotion_cloud.png, id=163, 389.455pt x 601.24625pt>
 File: emotion_cloud.png Graphic file (type png)
 <use emotion_cloud.png>
 Package pdftex.def Info: emotion_cloud.png  used on input line 25.
 (pdftex.def)             Requested size: 208.27623pt x 321.5397pt.
- [7 <./emotion_bar.png (PNG copy)>] [8 <./emotion_cloud.png (PNG copy)>]
-<methodology_flow.png, id=175, 955.57pt x 278.03876pt>
+ [7 <./emotion_cloud.png (PNG copy)>]
+<methodology_flow.png, id=172, 955.57pt x 278.03876pt>
 File: methodology_flow.png Graphic file (type png)
 <use methodology_flow.png>
 Package pdftex.def Info: methodology_flow.png  used on input line 38.
 (pdftex.def)             Requested size: 277.69987pt x 80.79887pt.
- [9 <./methodology_flow.png (PNG copy)>]) (results.tex
+ [8 <./methodology_flow.png (PNG copy)>]) (results.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -564,20 +562,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-<init_result_naive_bayes.png, id=186, 392.96812pt x 222.07968pt>
+<init_result_naive_bayes.png, id=188, 392.96812pt x 222.07968pt>
 File: init_result_naive_bayes.png Graphic file (type png)
 <use init_result_naive_bayes.png>
 Package pdftex.def Info: init_result_naive_bayes.png  used on input line 11.
 (pdftex.def)             Requested size: 277.69987pt x 156.94911pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<init_result_logistic_regression.png, id=188, 423.08063pt x 229.60782pt>
+<init_result_logistic_regression.png, id=190, 423.08063pt x 229.60782pt>
 File: init_result_logistic_regression.png Graphic file (type png)
 <use init_result_logistic_regression.png>
 Package pdftex.def Info: init_result_logistic_regression.png  used on input lin
@@ -586,7 +581,7 @@ e 18.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<init_result_random_forest.png, id=189, 391.4625pt x 234.1247pt>
+<init_result_random_forest.png, id=191, 391.4625pt x 234.1247pt>
 File: init_result_random_forest.png Graphic file (type png)
 <use init_result_random_forest.png>
 Package pdftex.def Info: init_result_random_forest.png  used on input line 25.
@@ -594,7 +589,7 @@ Package pdftex.def Info: init_result_random_forest.png  used on input line 25.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<init_result_svm.png, id=190, 395.97937pt x 217.5628pt>
+<init_result_svm.png, id=192, 395.97937pt x 217.5628pt>
 File: init_result_svm.png Graphic file (type png)
 <use init_result_svm.png>
 Package pdftex.def Info: init_result_svm.png  used on input line 32.
@@ -602,7 +597,7 @@ Package pdftex.def Info: init_result_svm.png  used on input line 32.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<accuracy_model_init_result.png, id=191, 559.33969pt x 426.09187pt>
+<accuracy_model_init_result.png, id=193, 559.33969pt x 426.09187pt>
 File: accuracy_model_init_result.png Graphic file (type png)
 <use accuracy_model_init_result.png>
 Package pdftex.def Info: accuracy_model_init_result.png  used on input line 39.
@@ -611,25 +606,25 @@ Package pdftex.def Info: accuracy_model_init_result.png  used on input line 39.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<confusion_naive_bayes_init.png, id=192, 298.11375pt x 259.7203pt>
+<confusion_naive_bayes_init.png, id=194, 298.11375pt x 259.7203pt>
 File: confusion_naive_bayes_init.png Graphic file (type png)
 <use confusion_naive_bayes_init.png>
 Package pdftex.def Info: confusion_naive_bayes_init.png  used on input line 49.
 
 (pdftex.def)             Requested size: 156.20453pt x 136.08571pt.
-<confusion_logistic_regression_init.png, id=193, 306.39468pt x 252.945pt>
+<confusion_logistic_regression_init.png, id=195, 306.39468pt x 252.945pt>
 File: confusion_logistic_regression_init.png Graphic file (type png)
 <use confusion_logistic_regression_init.png>
 Package pdftex.def Info: confusion_logistic_regression_init.png  used on input 
 line 56.
 (pdftex.def)             Requested size: 156.20453pt x 128.95392pt.
-<confusion_random_forest_init.png, id=194, 296.60812pt x 255.95625pt>
+<confusion_random_forest_init.png, id=196, 296.60812pt x 255.95625pt>
 File: confusion_random_forest_init.png Graphic file (type png)
 <use confusion_random_forest_init.png>
 Package pdftex.def Info: confusion_random_forest_init.png  used on input line 6
 5.
 (pdftex.def)             Requested size: 156.20453pt x 134.80083pt.
-<confusion_svm_init.png, id=195, 287.57437pt x 264.23718pt>
+<confusion_svm_init.png, id=197, 287.57437pt x 264.23718pt>
 File: confusion_svm_init.png Graphic file (type png)
 <use confusion_svm_init.png>
 Package pdftex.def Info: confusion_svm_init.png  used on input line 72.
@@ -637,25 +632,25 @@ Package pdftex.def Info: confusion_svm_init.png  used on input line 72.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[10] [11 <./init_result_naive_bayes.png> <./init_result_logistic_regression.png
->] [12 <./init_result_random_forest.png> <./init_result_svm.png>] [13 <./accura
-cy_model_init_result.png>] [14 <./confusion_naive_bayes_init.png> <./confusion_
-logistic_regression_init.png> <./confusion_random_forest_init.png> <./confusion
-_svm_init.png>]
+[10 <./init_result_naive_bayes.png>] [11 <./init_result_logistic_regression.png
+> <./init_result_random_forest.png>] [12 <./init_result_svm.png> <./accuracy_mo
+del_init_result.png>] [13 <./confusion_naive_bayes_init.png> <./confusion_logis
+tic_regression_init.png> <./confusion_random_forest_init.png> <./confusion_svm_
+init.png>]
 Overfull \hbox (3.62712pt too wide) in paragraph at lines 87--88
 \OT1/cmr/m/n/10 Logistic Re-gres-sion sig-nif-i-cantly im-proved ac-cu-racy to 
 0.83 , demon-strat-ing strong
  []
 
-[15
+[14
 
 ]
-<naive_bayes_result.png, id=247, 476.78125pt x 297.11pt>
+<naive_bayes_result.png, id=244, 476.78125pt x 297.11pt>
 File: naive_bayes_result.png Graphic file (type png)
 <use naive_bayes_result.png>
 Package pdftex.def Info: naive_bayes_result.png  used on input line 104.
 (pdftex.def)             Requested size: 277.69987pt x 173.05835pt.
-<logistic_regression_result.png, id=248, 476.78125pt x 297.11pt>
+<logistic_regression_result.png, id=245, 476.78125pt x 297.11pt>
 File: logistic_regression_result.png Graphic file (type png)
 <use logistic_regression_result.png>
 Package pdftex.def Info: logistic_regression_result.png  used on input line 111
@@ -665,7 +660,7 @@ Package pdftex.def Info: logistic_regression_result.png  used on input line 111
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<random_forest_result.png, id=249, 476.78125pt x 297.11pt>
+<random_forest_result.png, id=246, 476.78125pt x 297.11pt>
 File: random_forest_result.png Graphic file (type png)
 <use random_forest_result.png>
 Package pdftex.def Info: random_forest_result.png  used on input line 118.
@@ -673,7 +668,7 @@ Package pdftex.def Info: random_forest_result.png  used on input line 118.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<svm_result.png, id=250, 476.78125pt x 297.11pt>
+<svm_result.png, id=247, 476.78125pt x 297.11pt>
 File: svm_result.png Graphic file (type png)
 <use svm_result.png>
 Package pdftex.def Info: svm_result.png  used on input line 125.
@@ -681,7 +676,7 @@ Package pdftex.def Info: svm_result.png  used on input line 125.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<ann_result.png, id=251, 476.78125pt x 297.11pt>
+<ann_result.png, id=248, 476.78125pt x 297.11pt>
 File: ann_result.png Graphic file (type png)
 <use ann_result.png>
 Package pdftex.def Info: ann_result.png  used on input line 132.
@@ -689,7 +684,7 @@ Package pdftex.def Info: ann_result.png  used on input line 132.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<xgboost_result.png, id=252, 476.78125pt x 297.11pt>
+<xgboost_result.png, id=249, 476.78125pt x 297.11pt>
 File: xgboost_result.png Graphic file (type png)
 <use xgboost_result.png>
 Package pdftex.def Info: xgboost_result.png  used on input line 139.
@@ -697,35 +692,151 @@ Package pdftex.def Info: xgboost_result.png  used on input line 139.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[16 <./naive_bayes_result.png (PNG copy)>] [17 <./logistic_regression_result.pn
-g> <./random_forest_result.png>] [18 <./svm_result.png> <./ann_result.png>]
-[19 <./xgboost_result.png>] [20
+[15 <./naive_bayes_result.png (PNG copy)>] [16 <./logistic_regression_result.pn
+g> <./random_forest_result.png>] [17 <./svm_result.png> <./ann_result.png>]
+[18 <./xgboost_result.png>] [19
 
 ]
-<model_accuracy.png, id=298, 1152.305pt x 650.43pt>
+<model_accuracy.png, id=295, 1152.305pt x 650.43pt>
 File: model_accuracy.png Graphic file (type png)
 <use model_accuracy.png>
 Package pdftex.def Info: model_accuracy.png  used on input line 167.
 (pdftex.def)             Requested size: 277.69987pt x 156.7515pt.
-) (conclusion.tex) (main.bbl [21 <./model_accuracy.png (PNG copy)>]
+ [20 <./model_accuracy.png (PNG copy)>]
+<confusion_matrix_01.png, id=304, 589.20125pt x 507.8975pt>
+File: confusion_matrix_01.png Graphic file (type png)
+<use confusion_matrix_01.png>
+Package pdftex.def Info: confusion_matrix_01.png  used on input line 188.
+(pdftex.def)             Requested size: 156.20453pt x 134.64644pt.
+<confusion_matrix_01.1.png, id=305, 600.2425pt x 507.8975pt>
+File: confusion_matrix_01.1.png Graphic file (type png)
+<use confusion_matrix_01.1.png>
+Package pdftex.def Info: confusion_matrix_01.1.png  used on input line 195.
+(pdftex.def)             Requested size: 156.20453pt x 132.17422pt.
+<confusion_matrix_02.png, id=306, 589.20125pt x 507.8975pt>
+File: confusion_matrix_02.png Graphic file (type png)
+<use confusion_matrix_02.png>
+Package pdftex.def Info: confusion_matrix_02.png  used on input line 204.
+(pdftex.def)             Requested size: 156.20453pt x 134.64644pt.
+<confusion_matrix_02.1.png, id=307, 604.2575pt x 507.8975pt>
+File: confusion_matrix_02.1.png Graphic file (type png)
+<use confusion_matrix_02.1.png>
+Package pdftex.def Info: confusion_matrix_02.1.png  used on input line 211.
+(pdftex.def)             Requested size: 156.20453pt x 131.29074pt.
+<confusion_matrix_03.png, id=308, 590.205pt x 507.8975pt>
+File: confusion_matrix_03.png Graphic file (type png)
+<use confusion_matrix_03.png>
+Package pdftex.def Info: confusion_matrix_03.png  used on input line 220.
+(pdftex.def)             Requested size: 156.20453pt x 134.41394pt.
+<confusion_matrix_03.1.png, id=309, 597.23125pt x 507.8975pt>
+File: confusion_matrix_03.1.png Graphic file (type png)
+<use confusion_matrix_03.1.png>
+Package pdftex.def Info: confusion_matrix_03.1.png  used on input line 227.
+(pdftex.def)             Requested size: 156.20453pt x 132.84071pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[21
+
+]
+
+LaTeX Warning: Text page 22 contains only floats.
+
+[22 <./confusion_matrix_01.png> <./confusion_matrix_01.1.png> <./confusion_matr
+ix_02.png> <./confusion_matrix_02.1.png> <./confusion_matrix_03.png> <./confusi
+on_matrix_03.1.png>]
+<metrics_naive_bayes.png, id=326, 535.2497pt x 456.95718pt>
+File: metrics_naive_bayes.png Graphic file (type png)
+<use metrics_naive_bayes.png>
+Package pdftex.def Info: metrics_naive_bayes.png  used on input line 254.
+(pdftex.def)             Requested size: 156.20453pt x 133.35786pt.
+<metrics_logistic_regression.png, id=327, 537.50812pt x 457.71pt>
+File: metrics_logistic_regression.png Graphic file (type png)
+<use metrics_logistic_regression.png>
+Package pdftex.def Info: metrics_logistic_regression.png  used on input line 26
+1.
+(pdftex.def)             Requested size: 156.20453pt x 133.01186pt.
+<metrics_random_forest.png, id=328, 527.72156pt x 445.665pt>
+File: metrics_random_forest.png Graphic file (type png)
+<use metrics_random_forest.png>
+Package pdftex.def Info: metrics_random_forest.png  used on input line 270.
+(pdftex.def)             Requested size: 156.20453pt x 131.91205pt.
+<metrics_svm.png, id=329, 539.01375pt x 453.94594pt>
+File: metrics_svm.png Graphic file (type png)
+<use metrics_svm.png>
+Package pdftex.def Info: metrics_svm.png  used on input line 277.
+(pdftex.def)             Requested size: 156.20453pt x 131.5509pt.
+<metrics_ann.png, id=330, 520.19344pt x 461.47406pt>
+File: metrics_ann.png Graphic file (type png)
+<use metrics_ann.png>
+Package pdftex.def Info: metrics_ann.png  used on input line 286.
+(pdftex.def)             Requested size: 156.20453pt x 138.57002pt.
+<metrics_xgboost.png, id=331, 523.9575pt x 464.4853pt>
+File: metrics_xgboost.png Graphic file (type png)
+<use metrics_xgboost.png>
+Package pdftex.def Info: metrics_xgboost.png  used on input line 293.
+(pdftex.def)             Requested size: 156.20453pt x 138.4749pt.
+ [23
+
+ <./metrics_naive_bayes.png> <./metrics_logistic_regression.png> <./metrics_ran
+dom_forest.png> <./metrics_svm.png> <./metrics_ann.png> <./metrics_xgboost.png>
+] [24]
+<roc_naive_bayes.png, id=347, 668.4975pt x 520.19344pt>
+File: roc_naive_bayes.png Graphic file (type png)
+<use roc_naive_bayes.png>
+Package pdftex.def Info: roc_naive_bayes.png  used on input line 314.
+(pdftex.def)             Requested size: 156.20453pt x 121.54697pt.
+<roc_logistic_regression.png, id=348, 654.94687pt x 513.41812pt>
+File: roc_logistic_regression.png Graphic file (type png)
+<use roc_logistic_regression.png>
+Package pdftex.def Info: roc_logistic_regression.png  used on input line 321.
+(pdftex.def)             Requested size: 156.20453pt x 122.44728pt.
+<roc_random_forest.png, id=349, 658.71094pt x 532.23843pt>
+File: roc_random_forest.png Graphic file (type png)
+<use roc_random_forest.png>
+Package pdftex.def Info: roc_random_forest.png  used on input line 330.
+(pdftex.def)             Requested size: 156.20453pt x 126.21303pt.
+<roc_svm.png, id=350, 694.84593pt x 541.27219pt>
+File: roc_svm.png Graphic file (type png)
+<use roc_svm.png>
+Package pdftex.def Info: roc_svm.png  used on input line 337.
+(pdftex.def)             Requested size: 156.20453pt x 121.67361pt.
+<roc_ann.png, id=351, 668.4975pt x 532.99126pt>
+File: roc_ann.png Graphic file (type png)
+<use roc_ann.png>
+Package pdftex.def Info: roc_ann.png  used on input line 346.
+(pdftex.def)             Requested size: 156.20453pt x 124.53728pt.
+<roc_xgboost.png, id=352, 657.95813pt x 534.49687pt>
+File: roc_xgboost.png Graphic file (type png)
+<use roc_xgboost.png>
+Package pdftex.def Info: roc_xgboost.png  used on input line 353.
+(pdftex.def)             Requested size: 156.20453pt x 126.88722pt.
+ [25
+
+ <./roc_naive_bayes.png> <./roc_logistic_regression.png> <./roc_random_forest.p
+ng> <./roc_svm.png> <./roc_ann.png> <./roc_xgboost.png>] [26]) (conclusion.tex)
+ (main.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 4--9
 \OT1/cmtt/m/n/9 statistics / 272014 / global-[]social-[]networks-[]ranked-[]by-
 []number-[]of-[]users/$[]\OT1/cmr/m/n/9 ,
  []
 
-[22]
-Underfull \hbox (badness 5696) in paragraph at lines 125--129
+[27
+
+]
+Underfull \hbox (badness 5696) in paragraph at lines 131--135
 []\OT1/cmr/m/n/9 Ronan Col-lobert, Ja-son We-ston, Leon Bot-tou, Michael Karlen
 , Ko-ray
  []
 
-[23]
-Underfull \hbox (badness 10000) in paragraph at lines 207--212
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 213--218
 \OT1/cmtt/m/n/9 com / knowledge-[]base / stop-[]words-[]explained / # : [] : te
 xt = Stop % 20words % 20are %
  []
 
-) [24] (main.aux)
+) [29] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -735,16 +846,16 @@ L3 programming layer <2024-01-04>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A432B70DCA7BE20E1DB4179084660EED;627.
+(rerunfilecheck)             Checksum: 5F7030165F5CCB01D7B2FC84C36C102F;448.
  ) 
 Here is how much of TeX's memory you used:
- 11835 strings out of 474486
- 191488 string characters out of 5743755
- 1937542 words of memory out of 5000000
- 33867 multiletter control sequences out of 15000+600000
+ 12011 strings out of 474486
+ 196377 string characters out of 5743755
+ 1938542 words of memory out of 5000000
+ 34033 multiletter control sequences out of 15000+600000
  563817 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,8n,82p,1263b,598s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 80i,8n,82p,1263b,600s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Zyrex\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1000.pk><C:/Users/Zyrex/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/Zyrex/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -757,9 +868,9 @@ a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Zyr
 ex/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/U
 sers/Zyrex/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.p
 fb>
-Output written on main.pdf (24 pages, 933467 bytes).
+Output written on main.pdf (29 pages, 1708099 bytes).
 PDF statistics:
- 397 PDF objects out of 1000 (max. 8388607)
- 107 named destinations out of 1000 (max. 500000)
- 109 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 464 PDF objects out of 1000 (max. 8388607)
+ 117 named destinations out of 1000 (max. 500000)
+ 199 words of extra memory for PDF output out of 10000 (max. 10000000)
 

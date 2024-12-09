@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 6 items.
+The style file: unsrt.bst
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+Database file #1: references.bib
+Warning--entry type for "Bentejac2019" isn't style-file defined
+--line 453 of file references.bib
+Warning--empty journal in Lora2020
+Warning--empty journal in Bhardwaj2019
+You've used 36 entries,
+            1791 wiz_defined-function locations,
+            679 strings with 10479 characters,
+and the built_in function-call counts, 8437 in all, are:
+= -- 721
+> -- 395
+< -- 8
++ -- 144
+- -- 108
+* -- 514
+:= -- 1320
+add.period$ -- 110
+call.type$ -- 36
+change.case$ -- 37
+chr.to.int$ -- 0
+cite$ -- 38
+duplicate$ -- 379
+empty$ -- 851
+format.name$ -- 108
+if$ -- 1951
+int.to.chr$ -- 0
+int.to.str$ -- 36
+missing$ -- 26
+newline$ -- 179
+num.names$ -- 48
+pop$ -- 130
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 216
+stack$ -- 0
+substring$ -- 466
+swap$ -- 106
+text.length$ -- 8
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 72
+width$ -- 38
+write$ -- 389
+(There were 3 warnings)
