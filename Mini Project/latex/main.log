@@ -1,0 +1,894 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.11.8)  9 DEC 2024 13:34
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./main.tex
+(main.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/llncs\llncs.cls
+Document Class: llncs 2024/10/21 v2.25 
+ LaTeX document class for Lecture Notes in Computer Science
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\c@figure=\count193
+\c@table=\count194
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
+\c@tracingmulticols=\count195
+\mult@box=\box51
+\multicol@leftmargin=\dimen141
+\c@unbalance=\count196
+\c@collectmore=\count197
+\doublecol@number=\count198
+\multicoltolerance=\count199
+\multicolpretolerance=\count266
+\full@width=\dimen142
+\page@free=\dimen143
+\premulticols=\dimen144
+\postmulticols=\dimen145
+\multicolsep=\skip50
+\multicolbaselineskip=\skip51
+\partial@page=\box52
+\last@line=\box53
+\mc@boxedresult=\box54
+\maxbalancingoverflow=\dimen146
+\mult@rightbox=\box55
+\mult@grightbox=\box56
+\mult@firstbox=\box57
+\mult@gfirstbox=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\c@minrows=\count267
+\c@columnbadness=\count268
+\c@finalcolumnbadness=\count269
+\last@try=\dimen147
+\multicolovershoot=\dimen148
+\multicolundershoot=\dimen149
+\mult@nat@firstbox=\box95
+\colbreak@box=\box96
+\mc@col@check@num=\count270
+)
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/oberdiek\aliascnt.sty
+Package: aliascnt 2018/09/07 v1.5 Alias counters (HO)
+)
+\c@chapter=\count271
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 379.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 380.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 381.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 382.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 383.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 384.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 385.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 386.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 387.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 388.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 389.
+LaTeX Info: Redefining \vec on input line 394.
+\tocchpnum=\dimen150
+\tocsecnum=\dimen151
+\tocsectotal=\dimen152
+\tocsubsecnum=\dimen153
+\tocsubsectotal=\dimen154
+\tocsubsubsecnum=\dimen155
+\tocsubsubsectotal=\dimen156
+\tocparanum=\dimen157
+\tocparatotal=\dimen158
+\tocsubparanum=\dimen159
+\@tempcntc=\count272
+\fnindent=\dimen160
+\c@@inst=\count273
+\c@@auth=\count274
+\c@auco=\count275
+\instindent=\dimen161
+\authrun=\box97
+\authorrunning=\toks17
+\tocauthor=\toks18
+\titrun=\box98
+\titlerunning=\toks19
+\toctitle=\toks20
+\c@theorem=\count276
+\c@case=\count277
+\c@conjecture=\count278
+\c@corollary=\count279
+\c@definition=\count280
+\c@example=\count281
+\c@exercise=\count282
+\c@lemma=\count283
+\c@note=\count284
+\c@problem=\count285
+\c@property=\count286
+\c@proposition=\count287
+\c@question=\count288
+\c@solution=\count289
+\c@remark=\count290
+\headlineindent=\dimen162
+) (preamble.tex
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip52
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks21
+\ex@=\dimen163
+))
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen164
+)
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count291
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count292
+\leftroot@=\count293
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count294
+\DOTSCASE@=\count295
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box99
+\strutbox@=\box100
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen165
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+
+
+Package amsmath Warning: Unable to redefine math accent \vec.
+
+\macc@depth=\count296
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count297
+\dotsspace@=\muskip16
+\c@parentequation=\count298
+\dspbrk@lvl=\count299
+\tag@help=\toks22
+\row@=\count300
+\column@=\count301
+\maxfields@=\count302
+\andhelp@=\toks23
+\eqnshift@=\dimen166
+\alignsep@=\dimen167
+\tagshift@=\dimen168
+\tagwidth@=\dimen169
+\totwidth@=\dimen170
+\lineht@=\dimen171
+\@envbody=\toks24
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks25
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks26
+)
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen172
+\Gin@req@width=\dimen173
+)
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2023-11-26 v7.01g Hypertext links for LaTeX
+
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
+.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count303
+)
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count304
+)
+\@linkdim=\dimen174
+\Hy@linkcounter=\count305
+\Hy@pagecounter=\count306
+
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2023-11-26 v7.01g Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count307
+
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2023-11-26 v7.01g Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4181.
+Package hyperref Info: Link nesting OFF on input line 4186.
+Package hyperref Info: Hyper index ON on input line 4189.
+Package hyperref Info: Plain pages OFF on input line 4196.
+Package hyperref Info: Backreferencing OFF on input line 4201.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4448.
+\c@Hy@tempcnt=\count308
+
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4786.
+\XeTeXLinkMargin=\dimen175
+
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count309
+\Field@Width=\dimen176
+\Fld@charsize=\dimen177
+Package hyperref Info: Hyper figures OFF on input line 6065.
+Package hyperref Info: Link nesting OFF on input line 6070.
+Package hyperref Info: Hyper index ON on input line 6073.
+Package hyperref Info: backreferencing OFF on input line 6080.
+Package hyperref Info: Link coloring OFF on input line 6085.
+Package hyperref Info: Link coloring with OCG OFF on input line 6090.
+Package hyperref Info: PDF/A mode OFF on input line 6095.
+
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count310
+\c@Item=\count311
+\c@Hfootnote=\count312
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2023-11-26 v7.01g Hyperref driver for pdfTeX
+
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count313
+\c@bookmark@seq@number=\count314
+
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip55
+)
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+) (C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count315
+\float@exts=\toks27
+\float@box=\box101
+\@float@everytoks=\toks28
+\@floatcapt=\box102
+)
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen178
+\captionmargin=\dimen179
+\caption@leftmargin=\dimen180
+\caption@rightmargin=\dimen181
+\caption@width=\dimen182
+\caption@indent=\dimen183
+\caption@parindent=\dimen184
+\caption@hangindent=\dimen185
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->\small \vskip \abovecap
+tionskip \sbox \@tempboxa {{\bfseries #1.} #2}\ifdim \wd \@tempboxa >\hsize {\b
+fseries #1.} #2\par \else \global \@minipagefalse \hb@xt@ \hsize {\hfil \box \@
+tempboxa \hfil }\fi \vskip \belowcaptionskip  on input line 1175.
+)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count316
+\c@continuedfloat=\count317
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count318
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count319
+))
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count320
+\l__pdf_internal_box=\box103
+) (main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count321
+\scratchdimen=\dimen186
+\scratchbox=\box104
+\nofMPsegments=\count322
+\nofMParguments=\count323
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count324
+\MPscratchDim=\dimen187
+\MPnumerator=\count325
+\makeMPintoPDFobject=\count326
+\everyMPtoPDFconversion=\toks30
+)
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package hyperref Info: Link coloring OFF on input line 7.
+ (main.out) (main.out)
+\@outlinefile=\write3
+\openout3 = `main.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+ (title.tex
+LaTeX Font Info:    Trying to load font information for OMS+cmtt on input line 
+11.
+LaTeX Font Info:    No file OMScmtt.fd. on input line 11.
+
+
+LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbraceleft' on input line 11.
+
+) (introduction.tex [1
+
+{C:/Users/Zyrex/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]) (literature
+Review.tex [2] [3] [4]) (methodology.tex [5]
+<images/emotion_pie.png, id=153, 589.20125pt x 577.15625pt>
+File: images/emotion_pie.png Graphic file (type png)
+<use images/emotion_pie.png>
+Package pdftex.def Info: images/emotion_pie.png  used on input line 10.
+(pdftex.def)             Requested size: 208.27623pt x 204.01563pt.
+<images/emotion_bar.png, id=154, 855.195pt x 647.41875pt>
+File: images/emotion_bar.png Graphic file (type png)
+<use images/emotion_bar.png>
+Package pdftex.def Info: images/emotion_bar.png  used on input line 17.
+(pdftex.def)             Requested size: 208.27623pt x 157.66566pt.
+ [6 <./images/emotion_pie.png (PNG copy)> <./images/emotion_bar.png (PNG copy)>
+]
+<images/emotion_cloud.png, id=163, 389.455pt x 601.24625pt>
+File: images/emotion_cloud.png Graphic file (type png)
+<use images/emotion_cloud.png>
+Package pdftex.def Info: images/emotion_cloud.png  used on input line 25.
+(pdftex.def)             Requested size: 208.27623pt x 321.5397pt.
+ [7 <./images/emotion_cloud.png (PNG copy)>]
+<images/methodology_flow.png, id=172, 955.57pt x 278.03876pt>
+File: images/methodology_flow.png Graphic file (type png)
+<use images/methodology_flow.png>
+Package pdftex.def Info: images/methodology_flow.png  used on input line 38.
+(pdftex.def)             Requested size: 277.69987pt x 80.79887pt.
+ [8 <./images/methodology_flow.png (PNG copy)>]) (results.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+<images/init_result_naive_bayes.png, id=188, 392.96812pt x 222.07968pt>
+File: images/init_result_naive_bayes.png Graphic file (type png)
+<use images/init_result_naive_bayes.png>
+Package pdftex.def Info: images/init_result_naive_bayes.png  used on input line
+ 11.
+(pdftex.def)             Requested size: 277.69987pt x 156.94911pt.
+<images/init_result_logistic_regression.png, id=190, 423.08063pt x 229.60782pt>
+
+File: images/init_result_logistic_regression.png Graphic file (type png)
+<use images/init_result_logistic_regression.png>
+Package pdftex.def Info: images/init_result_logistic_regression.png  used on in
+put line 18.
+(pdftex.def)             Requested size: 277.69987pt x 150.71478pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/init_result_random_forest.png, id=191, 391.4625pt x 234.1247pt>
+File: images/init_result_random_forest.png Graphic file (type png)
+<use images/init_result_random_forest.png>
+Package pdftex.def Info: images/init_result_random_forest.png  used on input li
+ne 25.
+(pdftex.def)             Requested size: 277.69987pt x 166.09393pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/init_result_svm.png, id=192, 395.97937pt x 217.5628pt>
+File: images/init_result_svm.png Graphic file (type png)
+<use images/init_result_svm.png>
+Package pdftex.def Info: images/init_result_svm.png  used on input line 32.
+(pdftex.def)             Requested size: 277.69987pt x 152.57841pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/accuracy_model_init_result.png, id=193, 559.33969pt x 426.09187pt>
+File: images/accuracy_model_init_result.png Graphic file (type png)
+<use images/accuracy_model_init_result.png>
+Package pdftex.def Info: images/accuracy_model_init_result.png  used on input l
+ine 39.
+(pdftex.def)             Requested size: 277.69987pt x 211.55003pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/confusion_naive_bayes_init.png, id=194, 298.11375pt x 259.7203pt>
+File: images/confusion_naive_bayes_init.png Graphic file (type png)
+<use images/confusion_naive_bayes_init.png>
+Package pdftex.def Info: images/confusion_naive_bayes_init.png  used on input l
+ine 49.
+(pdftex.def)             Requested size: 156.20453pt x 136.08571pt.
+<images/confusion_logistic_regression_init.png, id=195, 306.39468pt x 252.945pt
+>
+File: images/confusion_logistic_regression_init.png Graphic file (type png)
+<use images/confusion_logistic_regression_init.png>
+Package pdftex.def Info: images/confusion_logistic_regression_init.png  used on
+ input line 56.
+(pdftex.def)             Requested size: 156.20453pt x 128.95392pt.
+<images/confusion_random_forest_init.png, id=196, 296.60812pt x 255.95625pt>
+File: images/confusion_random_forest_init.png Graphic file (type png)
+<use images/confusion_random_forest_init.png>
+Package pdftex.def Info: images/confusion_random_forest_init.png  used on input
+ line 65.
+(pdftex.def)             Requested size: 156.20453pt x 134.80083pt.
+<images/confusion_svm_init.png, id=197, 287.57437pt x 264.23718pt>
+File: images/confusion_svm_init.png Graphic file (type png)
+<use images/confusion_svm_init.png>
+Package pdftex.def Info: images/confusion_svm_init.png  used on input line 72.
+(pdftex.def)             Requested size: 156.20453pt x 143.53265pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[10 <./images/init_result_naive_bayes.png>] [11 <./images/init_result_logistic_
+regression.png> <./images/init_result_random_forest.png>] [12 <./images/init_re
+sult_svm.png> <./images/accuracy_model_init_result.png>] [13 <./images/confusio
+n_naive_bayes_init.png> <./images/confusion_logistic_regression_init.png> <./im
+ages/confusion_random_forest_init.png> <./images/confusion_svm_init.png>]
+Overfull \hbox (1.4049pt too wide) in paragraph at lines 87--88
+\OT1/cmr/m/n/10 Logistic Re-gres-sion sig-nif-i-cantly im-proved ac-cu-racy to 
+0.83, demon-strat-ing strong
+ []
+
+[14
+
+]
+<images/naive_bayes_result.png, id=244, 476.78125pt x 297.11pt>
+File: images/naive_bayes_result.png Graphic file (type png)
+<use images/naive_bayes_result.png>
+Package pdftex.def Info: images/naive_bayes_result.png  used on input line 104.
+
+(pdftex.def)             Requested size: 277.69987pt x 173.05835pt.
+<images/logistic_regression_result.png, id=245, 476.78125pt x 297.11pt>
+File: images/logistic_regression_result.png Graphic file (type png)
+<use images/logistic_regression_result.png>
+Package pdftex.def Info: images/logistic_regression_result.png  used on input l
+ine 111.
+(pdftex.def)             Requested size: 277.69987pt x 173.05835pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/random_forest_result.png, id=246, 476.78125pt x 297.11pt>
+File: images/random_forest_result.png Graphic file (type png)
+<use images/random_forest_result.png>
+Package pdftex.def Info: images/random_forest_result.png  used on input line 11
+8.
+(pdftex.def)             Requested size: 277.69987pt x 173.05835pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/svm_result.png, id=247, 476.78125pt x 297.11pt>
+File: images/svm_result.png Graphic file (type png)
+<use images/svm_result.png>
+Package pdftex.def Info: images/svm_result.png  used on input line 125.
+(pdftex.def)             Requested size: 277.69987pt x 173.05835pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/ann_result.png, id=248, 476.78125pt x 297.11pt>
+File: images/ann_result.png Graphic file (type png)
+<use images/ann_result.png>
+Package pdftex.def Info: images/ann_result.png  used on input line 132.
+(pdftex.def)             Requested size: 277.69987pt x 173.05835pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/xgboost_result.png, id=249, 476.78125pt x 297.11pt>
+File: images/xgboost_result.png Graphic file (type png)
+<use images/xgboost_result.png>
+Package pdftex.def Info: images/xgboost_result.png  used on input line 139.
+(pdftex.def)             Requested size: 277.69987pt x 173.05835pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[15 <./images/naive_bayes_result.png (PNG copy)>] [16 <./images/logistic_regres
+sion_result.png> <./images/random_forest_result.png>] [17 <./images/svm_result.
+png> <./images/ann_result.png>] [18 <./images/xgboost_result.png>] [19
+
+]
+<images/model_accuracy.png, id=295, 1152.305pt x 650.43pt>
+File: images/model_accuracy.png Graphic file (type png)
+<use images/model_accuracy.png>
+Package pdftex.def Info: images/model_accuracy.png  used on input line 167.
+(pdftex.def)             Requested size: 277.69987pt x 156.7515pt.
+
+[20 <./images/model_accuracy.png (PNG copy)>]
+<images/confusion_matrix_01.png, id=304, 589.20125pt x 507.8975pt>
+File: images/confusion_matrix_01.png Graphic file (type png)
+<use images/confusion_matrix_01.png>
+Package pdftex.def Info: images/confusion_matrix_01.png  used on input line 188
+.
+(pdftex.def)             Requested size: 156.20453pt x 134.64644pt.
+<images/confusion_matrix_01.1.png, id=305, 600.2425pt x 507.8975pt>
+File: images/confusion_matrix_01.1.png Graphic file (type png)
+<use images/confusion_matrix_01.1.png>
+Package pdftex.def Info: images/confusion_matrix_01.1.png  used on input line 1
+95.
+(pdftex.def)             Requested size: 156.20453pt x 132.17422pt.
+<images/confusion_matrix_02.png, id=306, 589.20125pt x 507.8975pt>
+File: images/confusion_matrix_02.png Graphic file (type png)
+<use images/confusion_matrix_02.png>
+Package pdftex.def Info: images/confusion_matrix_02.png  used on input line 204
+.
+(pdftex.def)             Requested size: 156.20453pt x 134.64644pt.
+<images/confusion_matrix_02.1.png, id=307, 604.2575pt x 507.8975pt>
+File: images/confusion_matrix_02.1.png Graphic file (type png)
+<use images/confusion_matrix_02.1.png>
+Package pdftex.def Info: images/confusion_matrix_02.1.png  used on input line 2
+11.
+(pdftex.def)             Requested size: 156.20453pt x 131.29074pt.
+<images/confusion_matrix_03.png, id=308, 590.205pt x 507.8975pt>
+File: images/confusion_matrix_03.png Graphic file (type png)
+<use images/confusion_matrix_03.png>
+Package pdftex.def Info: images/confusion_matrix_03.png  used on input line 220
+.
+(pdftex.def)             Requested size: 156.20453pt x 134.41394pt.
+<images/confusion_matrix_03.1.png, id=309, 597.23125pt x 507.8975pt>
+File: images/confusion_matrix_03.1.png Graphic file (type png)
+<use images/confusion_matrix_03.1.png>
+Package pdftex.def Info: images/confusion_matrix_03.1.png  used on input line 2
+27.
+(pdftex.def)             Requested size: 156.20453pt x 132.84071pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[21
+
+]
+
+LaTeX Warning: Text page 22 contains only floats.
+
+[22 <./images/confusion_matrix_01.png> <./images/confusion_matrix_01.1.png> <./
+images/confusion_matrix_02.png> <./images/confusion_matrix_02.1.png> <./images/
+confusion_matrix_03.png> <./images/confusion_matrix_03.1.png>]
+<images/metrics_naive_bayes.png, id=326, 535.2497pt x 456.95718pt>
+File: images/metrics_naive_bayes.png Graphic file (type png)
+<use images/metrics_naive_bayes.png>
+Package pdftex.def Info: images/metrics_naive_bayes.png  used on input line 254
+.
+(pdftex.def)             Requested size: 156.20453pt x 133.35786pt.
+<images/metrics_logistic_regression.png, id=327, 537.50812pt x 457.71pt>
+File: images/metrics_logistic_regression.png Graphic file (type png)
+<use images/metrics_logistic_regression.png>
+Package pdftex.def Info: images/metrics_logistic_regression.png  used on input 
+line 261.
+(pdftex.def)             Requested size: 156.20453pt x 133.01186pt.
+<images/metrics_random_forest.png, id=328, 527.72156pt x 445.665pt>
+File: images/metrics_random_forest.png Graphic file (type png)
+<use images/metrics_random_forest.png>
+Package pdftex.def Info: images/metrics_random_forest.png  used on input line 2
+70.
+(pdftex.def)             Requested size: 156.20453pt x 131.91205pt.
+<images/metrics_svm.png, id=329, 539.01375pt x 453.94594pt>
+File: images/metrics_svm.png Graphic file (type png)
+<use images/metrics_svm.png>
+Package pdftex.def Info: images/metrics_svm.png  used on input line 277.
+(pdftex.def)             Requested size: 156.20453pt x 131.5509pt.
+<images/metrics_ann.png, id=330, 520.19344pt x 461.47406pt>
+File: images/metrics_ann.png Graphic file (type png)
+<use images/metrics_ann.png>
+Package pdftex.def Info: images/metrics_ann.png  used on input line 286.
+(pdftex.def)             Requested size: 156.20453pt x 138.57002pt.
+<images/metrics_xgboost.png, id=331, 523.9575pt x 464.4853pt>
+File: images/metrics_xgboost.png Graphic file (type png)
+<use images/metrics_xgboost.png>
+Package pdftex.def Info: images/metrics_xgboost.png  used on input line 293.
+(pdftex.def)             Requested size: 156.20453pt x 138.4749pt.
+ [23
+
+ <./images/metrics_naive_bayes.png> <./images/metrics_logistic_regression.png> 
+<./images/metrics_random_forest.png> <./images/metrics_svm.png> <./images/metri
+cs_ann.png> <./images/metrics_xgboost.png>] [24]
+<images/roc_naive_bayes.png, id=348, 668.4975pt x 520.19344pt>
+File: images/roc_naive_bayes.png Graphic file (type png)
+<use images/roc_naive_bayes.png>
+Package pdftex.def Info: images/roc_naive_bayes.png  used on input line 323.
+(pdftex.def)             Requested size: 156.20453pt x 121.54697pt.
+<images/roc_logistic_regression.png, id=349, 654.94687pt x 513.41812pt>
+File: images/roc_logistic_regression.png Graphic file (type png)
+<use images/roc_logistic_regression.png>
+Package pdftex.def Info: images/roc_logistic_regression.png  used on input line
+ 330.
+(pdftex.def)             Requested size: 156.20453pt x 122.44728pt.
+<images/roc_random_forest.png, id=350, 658.71094pt x 532.23843pt>
+File: images/roc_random_forest.png Graphic file (type png)
+<use images/roc_random_forest.png>
+Package pdftex.def Info: images/roc_random_forest.png  used on input line 339.
+(pdftex.def)             Requested size: 156.20453pt x 126.21303pt.
+<images/roc_svm.png, id=351, 694.84593pt x 541.27219pt>
+File: images/roc_svm.png Graphic file (type png)
+<use images/roc_svm.png>
+Package pdftex.def Info: images/roc_svm.png  used on input line 346.
+(pdftex.def)             Requested size: 156.20453pt x 121.67361pt.
+<images/roc_ann.png, id=352, 668.4975pt x 532.99126pt>
+File: images/roc_ann.png Graphic file (type png)
+<use images/roc_ann.png>
+Package pdftex.def Info: images/roc_ann.png  used on input line 355.
+(pdftex.def)             Requested size: 156.20453pt x 124.53728pt.
+<images/roc_xgboost.png, id=353, 657.95813pt x 534.49687pt>
+File: images/roc_xgboost.png Graphic file (type png)
+<use images/roc_xgboost.png>
+Package pdftex.def Info: images/roc_xgboost.png  used on input line 362.
+(pdftex.def)             Requested size: 156.20453pt x 126.88722pt.
+ [25
+
+ <./images/roc_naive_bayes.png> <./images/roc_logistic_regression.png> <./image
+s/roc_random_forest.png> <./images/roc_svm.png> <./images/roc_ann.png> <./image
+s/roc_xgboost.png>] [26])
+(conclusion.tex) (main.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 4--9
+\OT1/cmtt/m/n/9 statistics / 272014 / global-[]social-[]networks-[]ranked-[]by-
+[]number-[]of-[]users/$[]\OT1/cmr/m/n/9 ,
+ []
+
+[27
+
+]
+Underfull \hbox (badness 5696) in paragraph at lines 131--135
+[]\OT1/cmr/m/n/9 Ronan Col-lobert, Ja-son We-ston, Leon Bot-tou, Michael Karlen
+, Ko-ray
+ []
+
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 213--218
+\OT1/cmtt/m/n/9 com / knowledge-[]base / stop-[]words-[]explained / # : [] : te
+xt = Stop % 20words % 20are %
+ []
+
+) [29] (main.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+ ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 5F7030165F5CCB01D7B2FC84C36C102F;448.
+ ) 
+Here is how much of TeX's memory you used:
+ 12013 strings out of 474486
+ 198297 string characters out of 5743755
+ 1938542 words of memory out of 5000000
+ 34035 multiletter control sequences out of 15000+600000
+ 563817 words of font info for 56 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 80i,8n,82p,1263b,600s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Zyrex\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
+1000.pk><C:/Users/Zyrex/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmbx10.pfb><C:/Users/Zyrex/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmbx12.pfb><C:/Users/Zyrex/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmbx9.pfb><C:/Users/Zyrex/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Zyrex/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Zyrex/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/Zyrex/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Zyr
+ex/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/U
+sers/Zyrex/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.p
+fb>
+Output written on main.pdf (29 pages, 1709484 bytes).
+PDF statistics:
+ 465 PDF objects out of 1000 (max. 8388607)
+ 117 named destinations out of 1000 (max. 500000)
+ 199 words of extra memory for PDF output out of 10000 (max. 10000000)
+

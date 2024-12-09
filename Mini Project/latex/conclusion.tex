@@ -2,3 +2,31 @@
 
 \section{Conclusion}
 This section concludes the paper and discusses the results, any future work, or open problems that remain to be explored.
+
+main points:
+- best model based on accuracy: Logistic Regression
+Although the accuracy results in all model are closer with each other, the best model based on accuracy is the Random Forest having an accuracy 85.84%. 
+
+- model that detects the best on certain emotion
+anger: random forest
+fear: random forest
+joy: xgboost
+sadness: random forest
+surprise: random forest and xgboost
+
+For the best model on detecting certain emotion, Random Forest performs best in all emotion except "Joy." XGBoost is the best model for predicting "Joy." The best model for predicting "Surprise" is Random Forest and XGBoost. 
+
+- metrics tp/tn/fn/fp
+The metrics evaluation shows a high degree of True Negative (TN) across all models, this suggest that the models is successful in identifying incorrect results. The True Positive (TP) of the models varies depending on the emotion, but a certain pattern occur in all model, with "Joy" and "Sadness" having a high True Positive (TN). False Positives (FP) and False Negative (FN) are low in all models, however, in the "Surprise" class Naive Bayes, False Positive (FP) tends to be higher than True Positive (TP) which implies the model misclassified "Surprise" emotion.
+
+- roc
+The ROC curves for the models show a high degree of classification performance across emotion categories which is described by the AUC values. Random Forest has the highest ROC
+
+- limitation recommendation (more data to address further imbalance)
+
+1. limitation
+cannot address other words aside from english
+cannot identify sarcastic and subjective sentiments
+
+2. recommendation
+more dataset to address imbalance problem that cannot be solved by optimization preprocessing
