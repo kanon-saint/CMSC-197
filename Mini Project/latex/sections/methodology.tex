@@ -7,14 +7,14 @@ The dataset used in this study is sourced from Kaggle and is titled "Emotions Da
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\textwidth]{emotion_pie.png}
+    \includegraphics[width=0.6\textwidth]{images/emotion_pie.png}
     \caption{Percentage distribution of emotions in the dataset.}
     \label{fig:emotion_pie}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\textwidth]{emotion_bar.png}
+    \includegraphics[width=0.6\textwidth]{images/emotion_bar.png}
     \caption{Count of each emotion in the dataset.}
     \label{fig:emotion_bar}
 \end{figure}
@@ -22,12 +22,12 @@ The dataset contains six distinct emotions: \textit{joy}, \textit{sadness}, \tex
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\textwidth]{emotion_cloud.png}
+    \includegraphics[width=0.6\textwidth]{images/emotion_cloud.png}
     \caption{Word cloud for the most frequent terms in each emotion.}
     \label{fig:emotion_cloud}
 \end{figure}
 
-In addition, Figure~\ref{fig:emotion_cloud} presents a word cloud visualization that showcases the most frequently occurring words in each emotion category. For example, in the \textit{joy} category, words such as \textit{happy}, \textit{excited}, and \textit{great} appear frequently, emphasizing themes of positivity. On the other hand, in the \textit{sadness} category, terms like \textit{loss}, \textit{hurt}, and \textit{tears} dominate, reflecting themes of grief. The \textit{anger} category includes terms such as \textit{mad}, \textit{frustrated}, and \textit{hate}, while the \textit{fear} category features words like \textit{scared} and \textit{nervous}. In the \textit{love} category, words such as \textit{care}, \textit{heart}, and \textit{dear} are more prominent, highlighting affection and compassion. Finally, the \textit{surprise} category shows terms like \textit{shock} and \textit{unexpected}, which represent reactions to unexpected events. Additionally, common words such as \textit{feel} and \textit{feeling} appear across all emotion categories, indicating the strong emotional undertones in the dataset and emphasizing how people often associate emotions with personal feelings.
+In addition, Figure~\ref{fig:emotion_cloud} presents a word cloud visualization that showcases the most frequently occurring words in each emotion category. For example, in the \textit{joy} category, words such as \textit{happy}, \textit{excited}, and \textit{successful} appear frequently, emphasizing themes of positivity. On the other hand, in the \textit{sadness} category, terms like \textit{alone}, \textit{hurt}, and \textit{lost} dominate, reflecting themes of grief. The \textit{anger} category includes terms such as \textit{angry}, \textit{pissed}, and \textit{violent}, while the \textit{fear} category features words like \textit{scared} and \textit{paranoid}. In the \textit{love} category, words such as \textit{passionate}, \textit{sweet}, and \textit{caring} are more prominent, highlighting affection and compassion. Finally, the \textit{surprise} category shows terms like \textit{shock} and \textit{overwhelmed}, which represent reactions to unexpected events. Additionally, common words such as \textit{feel} and \textit{feeling} appear across all emotion categories, indicating the strong emotional undertones in the dataset and emphasizing how people often associate emotions with personal feelings.
 
 These visualizations provide crucial insights into the distribution and underlying themes of each emotion in the dataset, offering a comprehensive view of the text data's emotional content.
 
@@ -35,7 +35,7 @@ These visualizations provide crucial insights into the distribution and underlyi
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{methodology_flow.png}
+    \includegraphics[width=0.8\textwidth]{images/methodology_flow.png}
     \caption{Flowchart representing the methodology for sentiment analysis.}
     \label{fig:methodology_flow}
 \end{figure}
@@ -44,13 +44,15 @@ The methodology for this sentiment analysis project is outlined in the flowchart
 
 The first step in the methodology is data acquisition, where the dataset is obtained from Kaggle. The dataset used in this study is titled "Emotions Dataset for NLP," and it contains textual data labeled with six distinct emotions: joy, sadness, anger, fear, love, and surprise. This dataset serves as the foundation for the sentiment analysis task. Once the dataset is acquired, it is imported into the system using Pandas. The `train.csv` file, which contains 16,000 sentiment samples, is read into a Pandas DataFrame for further processing and analysis.
 
+Before proceeding with data preprocessing, the necessary libraries are imported to handle the data and perform the required operations. These include Pandas for data manipulation, NumPy for numerical operations, NLTK for natural language processing, and Scikit-learn for machine learning algorithms and evaluation.
+
 Data preprocessing is a crucial step to prepare the dataset for analysis. This involves cleaning the text by removing HTML tags, URLs, numbers, special characters, and unwanted patterns using regular expressions (regex). Additionally, stopwords—common words that do not contribute significant meaning, such as "the," "a," "an," etc.—are removed using the NLTK library \cite{opinosis2024stopwords}.
 
 After preprocessing, the text data is converted into numerical features using the TF-IDF (Term Frequency-Inverse Document Frequency) technique. The `TfidfVectorizer` is used to transform the text data into a matrix of TF-IDF features. This method also includes n-grams, specifically unigrams, bigrams, and trigrams, to capture not only individual words but also word pairs and triples, which can provide more context and improve the model's understanding of the relationships between words in the text.
 
 Next, label encoding is performed. Since machine learning models cannot process categorical data directly, the emotion labels (joy, sadness, anger, etc.) are encoded into numerical values using `LabelEncoder`, allowing the model to understand and classify the emotions.
 
-The dataset is then split into training and testing sets. Typically, 80\% of the data is used for training the model, while the remaining 20\% is reserved for testing and evaluation. This ensures that the model is trained on a portion of the data and evaluated on unseen data.
+The dataset is then split into training and testing sets. Typically, 80\% of the data is used for training the model, while the remaining 20\% is reserved for testing and evaluation. However, due to an observed imbalance in the emotion classes, stratified sampling was implemented to ensure that the distribution of emotions was preserved in both the training and testing sets. This helps avoid bias that could arise from an uneven distribution of classes. Additionally, upsampling and downsampling techniques were applied to the training dataset to further address class imbalance, ensuring that each emotion class is adequately represented.
 
 Once the data is preprocessed and ready, several machine learning models are trained on the dataset, including Naive Bayes, Logistic Regression, Support Vector Machine (SVM), Random Forest, Artificial Neural Networks (ANN), and XGBoost. Each model is trained using the training set, and its performance is evaluated using the test set.
 
